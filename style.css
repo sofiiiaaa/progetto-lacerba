@@ -86,14 +86,16 @@ header{
     height: 97px;  
 }
 
-header .visual-icon{
-    color: red;
+header .visual-icon, #written-icon{
     display:flex;
     gap:31px;
     /* padding:7.46666666%; */
-    margin-left: 7.46666666%;
-    
+    margin-left: 7.46666666%;    
 }
+
+/* header #written-icon{
+    color:#000000;
+} */
 
 header #first-icon{
     margin-left: 7.466666%;
@@ -118,6 +120,7 @@ header #logo{
 border:2px solid black;
 background-color:#FFFFFF;
 margin-bottom:48px;
+overflow: hidden;
 }
 .card-text{
     text-align: center;
@@ -171,10 +174,13 @@ margin-bottom:48px;
     background-color:#FFFFFF;
     margin-bottom:48px;
     text-align: center;
+    overflow: hidden;
+   
 }
-/* .card-body .card-text{
-    
-} */
+.card-body .card-img{
+    display:flex;
+    width:100%
+}
 
 .description{
     text-align: left;
@@ -223,9 +229,17 @@ text-align: center;
 footer #first-area{
     height:378px; /*quando l'hai rimepito togli l'indicatore e usa le row e col.*/
     background-color: #FFFFFF;
+    display:flex;
+    text-align: center;
 }
 
 footer #copyright-stuff{
     background-color:#000000;
     height: 110px ; /*sempre da scermo piccolo, poi togli perché anche questa è una row con text align center.*/
+}
+
+footer #copyright-stuff li{
+    color: #F5F5F5;
+    text-decoration: none;
+    list-style: none;
 }
