@@ -12,39 +12,6 @@ body{
     background-color:#E5E5E5;
 }
 
-/***********MEDIA*****************************/
-
-@media(max-width:676px){
-
-    .card-img{
-        flex-basis: auto;            
-        height:100vh;
-    }
-    #home, #listato{
-        visibility:hidden;
-    }    
-}
-
-@media (min-width:1024px){
-
-    #first-icon, #second-icon{
-        visibility:hidden
-    }
-
-        #home , #listato{
-        color:#000000;
-        text-decoration: none;        
-    }   
-
-    .card-body{
-        display:flex;
-        
-        /* flex-wrap: nowrap; */
-    } 
-    
-}
-
-
 
 /***************************DISCOUNT MESSAGE*************************************/
 .screen-reader-only{
@@ -122,14 +89,14 @@ header #logo{
     /* border-style:dashed;   */
     /* padding:20.44329896907%;   */
     margin:0 auto; 
-    padding:97px 20px;
-    border:#000000 dashed 1px;
+    padding:20px 20px;
+    border:#000000 dashed 3px;
    
 }
 
 /***********MEDIA*****************************/
 
-@media(max-width:1023px){
+ @media(max-width:1023px){
 
     .sr-card-img{
         flex-basis: auto;            
@@ -137,7 +104,7 @@ header #logo{
     }
     #home, #listato{
         display:none;
-    }    
+    }       
 }
 
 @media (min-width:1024px){
@@ -146,7 +113,7 @@ header #logo{
         display:none;
     }
 
-        #home , #listato{
+        #home a, #listato a{
         color:#000000;
         text-decoration: none;        
     }   
@@ -157,7 +124,7 @@ header #logo{
         /* flex-wrap: nowrap; */
     } 
     
-}
+} 
 
 /********************CARD HOME***********************************/
 .sr-card-home{
@@ -245,6 +212,7 @@ overflow: hidden;
     font-style: normal;
     font-size:12px;
     line-height: 14px;
+    letter-spacing: 0.04em;
     
 }
 
@@ -260,6 +228,7 @@ overflow: hidden;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
+    letter-spacing: 0.01em;
     
 }
 
@@ -347,4 +316,14 @@ footer #copyright-stuff li{
     color: #F5F5F5;
     text-decoration: none;
     list-style: none;
+}
+
+footer ul{
+    display:flex;
+    gap:8px;
+}
+footer li a{
+    text-align:center;
+    color: #F5F5F5;
+
 }
