@@ -64,7 +64,7 @@ header{
     height: 97px;  
 }
 
-header .visual-icon, #written-icon{
+header .visual-icon, #written-icon {
     display:flex;
     gap:31px;
     /* padding:7.46666666%; */
@@ -301,10 +301,15 @@ overflow: hidden;
 /*****************************FOOTER***********************************************************/
 
 footer #first-area{
-    height:378px; /*quando l'hai rimepito togli l'indicatore e usa le row e col.*/
-    background-color: #FFFFFF;
-    display:flex;
-    text-align: center;
+    height:458px; /*quando l'hai rimepito togli l'indicatore e usa le row e col.*/
+    background-color: #FFFFFF;    
+    /* display:flex;
+    text-align: center; */    
+}
+
+footer #first-area ul{
+    flex-direction :column;  
+    list-style:none;  
 }
 
 footer #copyright-stuff{
