@@ -289,18 +289,25 @@ overflow: hidden;
     .sr-card-body{
          display: flex;
     }
-    /* .sr-card-body .sr-card-text{
-       text-align: center;
-       margin:15% 5%;
-       
-   
-       
+    .sr-card-body .sr-card-text{
+       /* text-align: center; */
+       /* margin:15% 5%; */
+       margin: auto;
+       width:50%;
+     
+     
+        
+    }
+     .sr-card-body img{
+        /* width:100%;         */
+        width:100%;
+        overflow: hidden;
+    } 
+
+    /* .sr-card-body button {
      
         
     } */
-     .sr-card-body img{
-        width:100%;        
-    } 
     
 }
 
