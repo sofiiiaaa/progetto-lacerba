@@ -281,7 +281,6 @@ overflow: hidden;
 
 #menu-service{
     display: flex;
-    overflow: hidden;
     justify-content: space-around;
     height: 148px;
     background-color: #E5E5E5; /*#F5F5F5*/
@@ -300,35 +299,63 @@ overflow: hidden;
 
 /*****************************FOOTER***********************************************************/
 
-footer #first-area{
-    height:458px; /*quando l'hai rimepito togli l'indicatore e usa le row e col.*/
-    background-color: #FFFFFF;    
-    /* display:flex;
-    text-align: center; */    
+  footer .container{
+     margin:0;  
+    } 
+    
+    footer #first-area{
+        height:458px; /*quando l'hai rimepito togli l'indicatore e usa le row e col.*/
+        background-color: #FFFFFF;    
+        /* display:flex; */
+        /*text-align: center;*/     
+    }
+    footer #first-area ul{
+        flex-direction :column;  
+        list-style:none;
 }
-
-footer #first-area ul{
-    flex-direction :column;  
-    list-style:none;  
+footer #first-area li a{
+    text-align:center;
+    margin:0 auto;
+    color: #000000;
+    /* text-decoration:none;
+    list-style: none; */    
+    
 }
-
 footer #copyright-stuff{
     background-color:#000000;
-    height: 110px ; /*sempre da scermo piccolo, poi togli perché anche questa è una row con text align center.*/
+    display: flex;
+    /* height: 110px ; sempre da scermo piccolo, poi togli perché anche questa è una row con text align center. */
+}
+footer #copyright-stuff ul li{ 
+    list-style:none; 
+}
+footer #copyright-stuff li a{
+    color: #F5F5F5;
 }
 
-footer #copyright-stuff li{
-    color: #F5F5F5;
-    text-decoration: none;
-    list-style: none;
-}
 
-footer ul{
-    display:flex;
-    gap:8px;
-}
-footer li a{
-    text-align:center;
-    color: #F5F5F5;
+
+@media (min-width:900px){
+    footer .container{
+        margin:0;
+    }
+
+    footer #copyright-stuff ul{
+        display:flex;
+        gap:8px;
+        list-style:none; 
+        height: 48px;
+        align-items: center;
+        margin:0 auto;
+    }
+    footer #copyright-stuff #legal-elements {
+        display:flex;
+        justify-content: space-around;
+        gap:8px;
+        /* margin:0; */
+        /* list-style:none;  */
+    }
+
+
 
 }
