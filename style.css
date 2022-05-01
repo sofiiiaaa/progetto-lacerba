@@ -178,6 +178,30 @@ overflow: hidden;
      /* overflow:hidden; */
     }
     
+     @media (min-width:900px){
+        /* sr-card-home .sr-card-text-1{
+        } */
+
+         .sr-card-home .sr-card-img{
+            position:relative;
+            height:685px;
+        } 
+        .sr-card-home .sr-card-text{
+            position:absolute;
+            top:374px;
+            bottom:0;
+            left:40px;
+            width: 532px;
+            height:311px;
+           /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }  
+    } 
 /********************CARD BODY*****************************/
 
 .sr-card-body{   
@@ -200,6 +224,7 @@ overflow: hidden;
     line-height: 120%;
     text-align: left;
     margin-left: 24px;
+    /* padding-bottom: 24px; */
 }
 .sr-card-body p, .description {
     text-align: left;
@@ -242,6 +267,8 @@ overflow: hidden;
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
+    width:100vh;
+
 }
 
 
@@ -262,15 +289,15 @@ overflow: hidden;
     .sr-card-body{
          display: flex;
     }
-    .sr-card-body .sr-card-text{
-       /* text-align: center;
-       margin:15% 5%; */
+    /* .sr-card-body .sr-card-text{
+       text-align: center;
+       margin:15% 5%;
        
    
        
      
         
-    }
+    } */
      .sr-card-body img{
         width:100%;        
     } 
