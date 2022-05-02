@@ -71,12 +71,6 @@ header .visual-icon, #written-icon {
     margin-left: 7.46666666%;    
 }
 
-
-
-/* header #written-icon{
-    color:#000000;
-} */
-
 header #first-icon{
     margin-left: 7.466666%;
 }
@@ -358,16 +352,17 @@ overflow: hidden;
 }
 
 
+
 /*****************************FOOTER***********************************************************/
 
-  footer .container{
+  /* footer .container-2{
      margin:0;  
      padding:0;
-    } 
+    }  */
     
     footer #first-area{
         background-color: #FFFFFF;    
-        margin:0;  
+        /* margin:0;   */
     }
 
     footer #first-area h3{
@@ -429,12 +424,22 @@ overflow: hidden;
             text-align:center;
         }
 
+        footer #follow-us-on{
+            background-color:#FFFFFF;
+        }
+
+        footer #follow-us-on h3{
+           text-align:center;
+        }
+
         footer #follow-us-on ul{
             display:flex;
             flex-direction: row;
             justify-content: space-around;
+            list-style:none ;
             /* flex-direction: row; */
         }
+        
 
     footer #copyright-stuff{
         background-color:#000000;
@@ -464,9 +469,10 @@ overflow: hidden;
         padding-bottom:63px;
     }
 
-    footer #first-area #follow-us-on{
+    footer  #follow-us-on{
         display:flex;           
     }
+
 
     footer #copyright-stuff ul{
         display:flex;
@@ -483,6 +489,7 @@ overflow: hidden;
         /* margin:0; */
         /* list-style:none;  */
     }
+    
 
 
 
