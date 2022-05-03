@@ -383,7 +383,12 @@ overflow: hidden;
     }  */
     
     footer #first-area{
-        background-color: #FFFFFF;    
+        background-color: #FFFFFF;
+        text-align:center;
+
+        /* padding-top:40px;
+        padding-left:24px; */
+         
         /* margin:0;   */
     }
 
@@ -393,6 +398,8 @@ overflow: hidden;
         font-style:bold;
         font-size:24px;
         line-height: 28px;
+       
+
     }
 
     footer #first-area input::placeholder{
@@ -402,7 +409,9 @@ overflow: hidden;
         font-size:16px;
         line-height: 19px;
         letter-spacing:0.01rem;
-        color:#6B6B6B;;
+        color:#6B6B6B;
+        
+
     }
 
     footer #first-area p{
@@ -416,16 +425,42 @@ overflow: hidden;
         padding-bottom: 50px;
     }
 
+    footer #first-area .option-list{
+        font-family: 'Roboto';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        padding-bottom:0;
+        text-align: left;
+        
+    }
+
     footer #first-area ul{
         flex-direction :column;  
         list-style:none;
+        text-align: left;
     }
     footer #first-area li a{
         text-align:center;
         margin:0 auto;
         color: #000000;
-        /* text-decoration:none;
-        list-style: none; */       
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;      
+    }
+    footer #send-form{
+        text-align:left;
+        padding-left:6%;
+
+    }
+
+    footer input{
+        border:0;
     }
 
         footer #first-area button{
@@ -448,10 +483,17 @@ overflow: hidden;
 
         footer #follow-us-on{
             background-color:#FFFFFF;
+            text-align:center;
         }
 
         footer #follow-us-on h3{
-           text-align:center;
+           font-family: 'Roboto';
+           font-style: normal;
+           font-weight: 800;
+           font-size: 14px;
+           line-height: 16px;
+           align-items: center;
+           letter-spacing: 0.1em;
         }
 
         footer #follow-us-on ul{
@@ -459,15 +501,12 @@ overflow: hidden;
             flex-direction: row;
             justify-content: space-around;
             list-style:none ;
-            /* flex-direction: row; */
         }
         
 
     footer #copyright-stuff{
         background-color:#000000;
         text-align:center;
-        /* display: flex; */
-        /* height: 110px ; sempre da scermo piccolo, poi togli perché anche questa è una row con text align center. */
     }
     footer #copyright-stuff ul li{ 
         list-style:none; 
@@ -475,34 +514,68 @@ overflow: hidden;
     footer #copyright-stuff li a{
         color: #F5F5F5;
     }
+    footer #copyright-stuff #copiright{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 140%;
+    }
     footer #copyright-stuff #legal-elements{
         text-align: center;
+        display:flex;
+        gap:8px;
         justify-content: space-around;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 140%;
     }
 
 
 
-@media (min-width:900px){
+@media (min-width:767px){
     footer .container{
         margin:0;
     }
 
-    footer #first-area h3{
-        padding-bottom:63px;
+    footer #first-area{
+        padding-top:82px;
+        padding-left:11.25%;
     }
 
-    footer  #follow-us-on{
-        display:flex;           
+    footer  #form-area{
+        padding-right:180px;
+        padding-bottom:64px;
+    }
+    
+
+    footer #first-area h3{
+        padding-bottom:47px;
+    }
+    
+     footer #first-area #form-and-send{
+        display:flex;
+        gap:16px;
+    } 
+
+    footer  #follow-icons #follow-us-on{
+        display:flex; 
+        padding-left:35%; 
+        padding-bottom:28px;
     }
 
 
     footer #copyright-stuff ul{
+        text-align:center;
         display:flex;
         gap:8px;
         list-style:none; 
         height: 48px;
         align-items: center;
         margin:0 auto;
+        padding-left:33%; 
     }
     footer #copyright-stuff #legal-elements {
         display:flex;
