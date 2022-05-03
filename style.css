@@ -19,32 +19,42 @@ body{
 }
 
 #discount-message{
+    width:100%;
     height:32px;
-    background-color: #000000;    
-    margin:0;  
-    position:relative;
+    background-color: #000000;
     text-align:center; 
-    align-items: center;
+    position:relative;
+    padding-right:2%;
+    /* margin: auto auto; */
 }
 #discount-message span{  
     /* margin-left:6.4%;   */ /*per schermo telefono*/
-    margin-top:25%;
-    margin-left:9.44881889763%; /*per chermo telefono*/
+    /* margin-top:12.5px;
+    margin-left:9.44881889763%; per chermo telefono */
+    /* position: absolute;
+width: 308px;
+height: 17px;
+right: 646px;
+top: 8px;  */
     color: #FFFFFF;  
-    margin:0;
-    height: 17px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.1em;
+
 }
 
 #discount-message button{
 position:absolute;
 top:50%;
-/* right:2.1875%; */
-/* right:2.36625%; */
-transform: translateY(-50%);
+transform: translateY(-55%);  
 appearance:none;
 border:0;
 background-color: transparent;
-margin-left:35%;
+padding-left:35%;
+
 }
 
 #discount-message button svg{
@@ -64,24 +74,21 @@ header{
     height: 97px;  
 }
 
+nav{
+    margin-left:3%;
+}
+
 header .visual-icon, #written-icon {
     display:flex;
     gap:31px;
-    /* padding:7.46666666%; */
-    margin-left: 7.46666666%;    
 }
 
-header #first-icon{
-    margin-left: 7.466666%;
-}
 
 .screen-reader-only{
     display: none;
 }
 
 header #logo{
-    /* border-style:dashed;   */
-    /* padding:20.44329896907%;   */
     margin:0 auto; 
     padding:20px 20px;
     border:#000000 dashed 3px;   
@@ -188,6 +195,10 @@ overflow: hidden;
      width:100vh;
      /* overflow:hidden; */
     }
+
+    .sr-card-text #big-screen-paragraph{
+        display:none;
+    }
     
      @media (min-width:900px){
 
@@ -212,7 +223,8 @@ overflow: hidden;
             border: 1px solid rgba(255, 255, 255, 0.3);
             text-align: left;
         }  
-        .sr-card-text #paragraph{
+        .sr-card-text #big-screen-paragraph{
+            display:block;
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -223,6 +235,7 @@ overflow: hidden;
             
         }
     } 
+    
 /********************CARD BODY*****************************/
 
 .sr-card-body{   
@@ -232,6 +245,12 @@ overflow: hidden;
     text-align: center;
     overflow: hidden;   
     padding:0;   
+}
+.sr-card-body .sr-card-text{
+    text-align:left;
+    padding-left:50px;
+    padding-right:50px;
+   
 }
 
 .sr-card-body h2{
@@ -243,16 +262,16 @@ overflow: hidden;
     font-style: normal;
     font-size:32px;
     line-height: 120%;
-    text-align: left;
-    margin-left: 24px;
+    /* text-align: left; */
+    /* margin-left: 24px; */
     /* padding-bottom: 24px; */
 }
-.sr-card-body p, .description {
-    text-align: left;
-    margin-left: 24px;  
-    font-family: 'BioRhyme', serif;
+.sr-card-body p {
+    /* text-align: left; */
+    /* margin-left: 24px;   */
+    /* font-family: 'BioRhyme', serif;
     font-family: 'Luxurious Roman', cursive;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight:500;
     font-style: normal;
@@ -262,12 +281,15 @@ overflow: hidden;
     
 }
 
+
+
+
 .description{
-    text-align: left;
-    margin-left: 24px;
-    font-family: 'BioRhyme', serif;
+    /* text-align: left; */
+    /* margin-left: 24px; */
+    /* font-family: 'BioRhyme', serif;
     font-family: 'Luxurious Roman', cursive;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight:400;
     font-style: normal;
@@ -297,7 +319,7 @@ overflow: hidden;
     background-color: #000000;
     width:169.29px;
     height:48px;
-    text-align: center;
+    text-align: center; 
     
 }
 
