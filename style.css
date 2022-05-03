@@ -379,11 +379,17 @@ overflow: hidden;
 
 /**********************MENU SERVICE********************************************************/
 
-#menu-service{
-    display: flex;
-    justify-content: space-around;
-    height: 148px;
+ #menu-service{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px; 
     background-color: #E5E5E5; /*#F5F5F5*/
+}
+
+#home-services .container{
+    /* margin: auto 0 ; */
+    text-align: center;
 }
 #home-services .row p{
     font-family: 'BioRhyme', serif;
@@ -472,7 +478,7 @@ overflow: hidden;
     }
 
     footer #first-area li{
-        padding-bottom:16px; 
+        padding-bottom:3.49%; 
     }
 
     footer #first-area li a{
@@ -495,11 +501,12 @@ overflow: hidden;
 
     footer input{
         border:0;
+        border-bottom:2px solid #000;
+        width:317px;
     }
 
         footer #first-area button{
             margin-top:40px;
-            margin-bottom: 24px;
             background-color: #9D9D9D;
             width: 120px;
             height: 48px;
@@ -512,6 +519,7 @@ overflow: hidden;
             color:#FFFFFF;
             text-transform:uppercase;
             border:none;
+            
             text-align:center;
         }
 
@@ -600,6 +608,7 @@ overflow: hidden;
      footer #first-area #form-and-send{
         display:flex;
         gap:16px;
+        padding-bottom:8.95%;
     } 
 
     /* footer hr{
