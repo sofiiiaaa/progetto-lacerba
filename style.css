@@ -25,17 +25,8 @@ body{
     text-align:center; 
     position:relative;
     padding-right:2%;
-    /* margin: auto auto; */
 }
 #discount-message span{  
-    /* margin-left:6.4%;   */ /*per schermo telefono*/
-    /* margin-top:12.5px;
-    margin-left:9.44881889763%; per chermo telefono */
-    /* position: absolute;
-width: 308px;
-height: 17px;
-right: 646px;
-top: 8px;  */
     color: #FFFFFF;  
     font-family: 'Roboto';
     font-style: normal;
@@ -71,7 +62,7 @@ header{
     display:flex;
     align-items: center;
     justify-content: center;    
-    /* height: 97px;   */
+
 }
 
 nav{
@@ -128,8 +119,6 @@ header #logo{
 
     .card-body{
         display:flex;
-        
-        /* flex-wrap: nowrap; */
     } 
     
 } 
@@ -144,7 +133,7 @@ overflow: hidden;
 .sr-card-home .sr-card-text{
     text-align: center;
     margin-top:26px;
-    margin-bottom:40px; /*QUALCOSA LO ANNULLA!!*/
+    margin-bottom:40px; 
 }
 
  .sr-card-home .sr-card-text #tag{
@@ -193,7 +182,7 @@ overflow: hidden;
 .sr-card-img{
     display:flex;
      width:100vh;
-     /* overflow:hidden; */
+
     }
 
     .sr-card-text #big-screen-paragraph{
@@ -222,7 +211,6 @@ overflow: hidden;
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.3);
            text-align:left;
-           /* bottom: 0; */
            display: flex;
            flex-direction: column;
            justify-content: center;
@@ -230,14 +218,7 @@ overflow: hidden;
             
         }  
 
-        /* .sr-card-text h1{
-            padding-bottom:64px;
-        }
-
-        .sr-card-home .sr-card-text #tag{
-            padding-top:40px;
-            padding-bottom:10px; 
-        } */
+       
         .sr-card-text #big-screen-paragraph{
             display:block;
             font-family: 'Roboto';
@@ -278,16 +259,8 @@ overflow: hidden;
     font-size:32px;
     line-height: 120%;
     margin-bottom:0;
-    /* text-align: left; */
-    /* margin-left: 24px; */
-    /* padding-bottom: 24px; */
 }
 .sr-card-body p {
-    /* text-align: left; */
-    /* margin-left: 24px;   */
-    /* font-family: 'BioRhyme', serif;
-    font-family: 'Luxurious Roman', cursive;
-    font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight:500;
     font-style: normal;
@@ -296,20 +269,12 @@ overflow: hidden;
     letter-spacing: 0.04em;
     padding-top:7.339%;
     padding-bottom:1.834%;
-    /* margin-bottom:0; */
     
     
 }
 
 
-
-
 .sr-card-body .sr-card-text .description{
-    /* text-align: left; */
-    /* margin-left: 24px; */
-    /* font-family: 'BioRhyme', serif;
-    font-family: 'Luxurious Roman', cursive;
-    font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
     font-weight:400;
     font-style: normal;
@@ -355,15 +320,12 @@ overflow: hidden;
          display: flex;
     }
     .sr-card-body .sr-card-text{
-       /* text-align: center; */
-       /* margin:15% 5%; */
        margin: auto;
        width:50%;
         
     }
 
-     .sr-card-body img{
-        /* width:100%;         */
+     .sr-card-body img{       
         width:100%;
         overflow: hidden;
     } 
@@ -375,11 +337,6 @@ overflow: hidden;
     .description{
         padding:4% 0;
     }
-
-    /* .sr-card-body button {
-     
-        
-    } */
     
 }
 
@@ -394,7 +351,6 @@ overflow: hidden;
 }
 
 #home-services .container{
-    /* margin: auto 0 ; */
     text-align: center;
 }
 #home-services .row p{
@@ -412,19 +368,11 @@ overflow: hidden;
 
 /*****************************FOOTER***********************************************************/
 
-  /* footer .container-2{
-     margin:0;  
-     padding:0;
-    }  */
     
     footer #first-area{
         background-color: #FFFFFF;
         text-align:center;
 
-        /* padding-top:40px;
-        padding-left:24px; */
-         
-        /* margin:0;   */
     }
 
     footer #first-area h3{
@@ -433,18 +381,15 @@ overflow: hidden;
         font-style:bold;
         font-size:24px;
         line-height: 28px;
-        /* padding-bottom:47px; */
         padding-top:8.94%;
         padding-left:6%;
         text-align: left;
+        margin-bottom:0;
        
 
     }
 
-    /* footer #first-area input{
-        height: 19px;
-    } */
-
+ 
     footer #first-area input::placeholder{
         font-family:'Roboto', sans-serif;
         font-style:normal;
@@ -546,6 +491,7 @@ overflow: hidden;
             line-height: 12px;
             color: #9D9D9D;
             text-align: left;
+            padding-top:8.7336%;
         }
 
         footer #follow-us-on{
@@ -616,36 +562,16 @@ overflow: hidden;
         padding-bottom:64px;
         padding-left:11.25%;
     }
-    /* footer  #form-area p{
-        padding-bottom:0;
-        margin-bottom:0;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
-        color: #9D9D9D;
-        text-align: left;
-    } */
-
-    
-        
+            
      footer #first-area #form-and-send{
         display:flex;
         gap:16px;
         padding-bottom:8.95%;
     } 
 
-    /* footer hr{
-        height: 2px;
-        border:10px solid black;
-        width:20px;
-        color:#000000;
-    } */
-
+   
     footer #first-area button{
         margin-top:0;
-        /* margin-bottom:41px; */
     }
 
     footer  #follow-icons #follow-us-on{
@@ -669,11 +595,6 @@ overflow: hidden;
         display:flex;
         justify-content: space-around;
         gap:8px;
-        /* margin:0; */
-        /* list-style:none;  */
     }
     
-
-
-
 }
