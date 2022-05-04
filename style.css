@@ -155,7 +155,7 @@ overflow: hidden;
     letter-spacing: 0.04em;
 }
 
- .sr-card-text h1{
+ .sr-card-home .sr-card-text h1{
     font-family: 'BioRhyme', serif;
     font-family: 'Luxurious Roman', cursive;
     font-family: 'Open Sans', sans-serif;
@@ -206,7 +206,7 @@ overflow: hidden;
         } 
         .sr-card-home .sr-card-text{
             position:absolute;
-            top:503px;
+            top:523px;
             left:40px;
             width: 532px;
             height:311px;
@@ -221,10 +221,18 @@ overflow: hidden;
            text-align:left;
            display: flex;
            flex-direction: column;
-           justify-content: center;
-          
+           justify-content: center;         
             
         }  
+
+        .sr-card-home .sr-card-text h1{
+            margin-top:3.21%;
+            margin-bottom:64px;
+        }
+
+        .sr-card-home .sr-card-text #tag{
+            margin:0;
+        }
 
        
         .sr-card-text #big-screen-paragraph{
@@ -236,6 +244,8 @@ overflow: hidden;
             line-height: 19px;
             letter-spacing: 0.01em; 
             color:#000000;
+            margin-top:0;
+            margin-bottom:41px;
             
         }
     } 
@@ -426,6 +436,8 @@ overflow: hidden;
         padding-left:6%;
         text-align: left;
         margin-bottom:0;
+        margin-top:0;
+        padding-top:0;
        
 
     }
@@ -495,7 +507,6 @@ overflow: hidden;
     footer #send-form{
         text-align:left;
 
-
     }
 
     footer input{
@@ -520,6 +531,7 @@ overflow: hidden;
             text-transform:uppercase;
             border:none;            
             text-align:center;
+            margin-bottom:5.36%;
             
         }
 
@@ -570,6 +582,8 @@ overflow: hidden;
     }
     footer #copyright-stuff li a{
         color: #F5F5F5;
+        text-decoration: none;
+
     }
     footer #copyright-stuff #copiright{
         font-family: 'Roboto';
