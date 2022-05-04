@@ -258,8 +258,9 @@ overflow: hidden;
     margin-bottom:48px;
     text-align: center;
     overflow: hidden;   
-    padding:0;   
+    padding:0; 
 }
+
 .sr-card-body .sr-card-text{
     text-align:left;
     padding-left:50px;
@@ -392,17 +393,7 @@ overflow: hidden;
         #menu-service  li{
             list-style:none;
         }
-  /* #menu-service{
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 148px; 
-    background-color: #E5E5E5; /*#F5F5F5*/
-/*} 
-
-#home-services .container{
-    text-align: center;
-}*/
+  
 #home-services p{
     font-family: 'BioRhyme', serif;
     font-family: 'Luxurious Roman', cursive;
@@ -437,7 +428,7 @@ overflow: hidden;
         text-align: left;
         margin-bottom:0;
         margin-top:0;
-        padding-top:0;
+        padding-top:8.94%;
        
 
     }
