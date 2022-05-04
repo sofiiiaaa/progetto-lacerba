@@ -325,12 +325,18 @@ overflow: hidden;
     .sr-card-body .sr-card-text{
        margin: auto;
        width:50%;
+       height:auto;
+       display:block;
+       /* overflow: hidden; */
         
     }
 
-     .sr-card-body img{       
+     .sr-card-body img{  
+         /* display:flex;      */
         width:100%;
-        overflow: hidden;
+        height:auto;
+        display:block;
+        /* overflow: hidden; */
     } 
     
     .sr-card-body .sr-card-text p{
