@@ -536,7 +536,7 @@ overflow: hidden;
     } 
 
 
-    footer #send-form{
+    footer  #send-form{
         text-align:left;
 
     }
@@ -567,6 +567,10 @@ overflow: hidden;
             
         }
 
+        footer button .plus{
+            justify-content: right;
+        }
+
         footer  #form-area p{
             padding-bottom:13.33333%;
             margin-bottom:0;
@@ -583,6 +587,8 @@ overflow: hidden;
         footer  #follow-us-on{
             background-color:#FFFFFF;
             text-align:center;
+            padding-bottom:10%;
+            padding-top:2%;
             /* padding-bottom:50px; */
         }
 
