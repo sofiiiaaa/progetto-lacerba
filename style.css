@@ -213,7 +213,7 @@ overflow: hidden;
             margin:0;
             padding:40px;
            /* From https://css.glass */
-            background: rgba(255, 255, 255, 0.75);
+           background: rgba(255, 255, 255, 0.75);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
@@ -224,6 +224,17 @@ overflow: hidden;
            justify-content: center;         
             
         }  
+
+        @supports (backdrop-filter: blur(20px)){
+            .sr-card-home .sr-card-text{
+                background: rgba(255, 255, 255, 0.75);
+                backdrop-filter:blur(20px);
+                -webkit-backdrop-filter:blur(20px);   
+        
+        
+            }
+        }
+        
 
         .sr-card-home .sr-card-text h1{
             margin-top:3.21%;
