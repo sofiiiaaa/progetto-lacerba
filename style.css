@@ -429,7 +429,6 @@ overflow: hidden;
         margin-bottom:0;
         margin-top:0;
         padding-top:8.94%;
-       
 
     }
 
@@ -460,41 +459,83 @@ overflow: hidden;
         padding-bottom: 11.18%;
     }
 
-    footer #first-area .option-list{
-        font-family: 'Roboto';
-        font-style: bold;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.01em;
-        padding-bottom:0;
-        text-align: left;
-        padding-bottom:21px;
+    footer .col-sm-3{
+        display:flex;
+        flex-direction:column;
+        margin:0;
+    }
+
+    footer .col-sm-3 button{
+        display: flex;
         
     }
 
-    footer #first-area ul{
-        flex-direction :column;  
-        list-style:none;
+      button .collapsible #may-we-help-you{
+        background-color: #F5F5F5;
+        color: #000;
+        cursor: pointer;
+        width: 100%;
+        border: none;
         text-align: left;
+        outline: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+        letter-spacing: 0.01em;
+        margin:0;
+
+      }
+     
+      footer .col-sm-3  span{
+          padding-right:6.666%;
+          padding-left:8.8%;
+      }
+
+      footer .col-sm-3 h3{
+        margin:0 ;
+      }
+
+ 
+      footer .content ul{
+          padding:0;
+          margin:0;
+      }
+
+      footer .content li {
+        padding: 0 18px;
+        /* display: none; */
+        overflow: hidden;
+        background-color: #f1f1f1;
+        list-style: none;
+        
+      }
+
+      footer .content li a{
+        text-decoration: none;
+        color:#000;
+      }
+
+    footer #first-area .option-list{
+        display:none
+        
+    }
+
+   footer #first-area ul{
+        display:none;
     }
 
     footer #first-area li{
-        padding-bottom:3.49%; 
+        display:none
     }
 
     footer #first-area li a{
-        text-align:center;
-        margin:0 auto;
-        color: #000000;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        letter-spacing: 0.01em;  
-           
-    }
+          display:none; 
+    } 
+
+
     footer #send-form{
         text-align:left;
 
@@ -507,7 +548,7 @@ overflow: hidden;
         padding-left:6.4%;
     }
 
-        footer #first-area button{
+        footer form button{
             margin-top:8.948%;
             background-color: #9D9D9D;
             width: 120px;
@@ -610,6 +651,50 @@ overflow: hidden;
         padding-right:11.25%;
         padding-bottom:64px;
         padding-left:11.25%;
+    }
+
+    footer .col-sm-3{
+        display:none
+    }
+
+     footer #first-area .option-list{
+         display:block;
+        font-family: 'Roboto';
+        font-style: bold;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        padding-bottom:0;
+        text-align: left;
+        padding-bottom:21px;
+        
+    }
+
+    footer #first-area ul{
+        display:block;
+        flex-direction :column;  
+        list-style:none;      
+        padding-left:0;
+    }
+
+    footer #first-area li{
+        display:block;
+        padding-bottom:3.49%;
+    }
+
+    footer #first-area li a{
+        display:block;
+        text-align:center;
+        margin:0 auto;
+        color: #000000;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;  
+           
     }
             
      footer #first-area #form-and-send{
