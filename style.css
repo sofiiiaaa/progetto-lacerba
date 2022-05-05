@@ -404,6 +404,18 @@ overflow: hidden;
         #menu-service  li{
             list-style:none;
         }
+
+        #menu-service  li a{
+            text-decoration: none;
+            color:#000;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 0.01em;
+        }
   
 #home-services p{
     font-family: 'BioRhyme', serif;
