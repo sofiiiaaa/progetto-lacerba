@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;   
+    overflow-x:hidden;
 }
 
 *,
@@ -439,6 +440,7 @@ overflow: hidden;
     footer #first-area{
         background-color: #FFFFFF;
         text-align:center;
+        margin:0;
 
     }
 
@@ -565,6 +567,8 @@ overflow: hidden;
 
     footer #first-area li a{
           display:none; 
+          padding:0;
+          justify-content:center;
     } 
 
 
@@ -576,8 +580,12 @@ overflow: hidden;
     footer input{
         border:0;
         border-bottom:2px solid #000;
-        width:310px;
-        padding-left:6.4%;
+
+        /* padding-left:6.4%; */
+    }
+
+    footer form{
+        padding-left:6%;
     }
 
         footer form button{
@@ -601,7 +609,10 @@ overflow: hidden;
 
         footer button .plus{
             justify-content: right;
+            margin-left:auto;
         }
+
+
 
         footer  #form-area p{
             padding-bottom:13.33333%;
@@ -614,14 +625,21 @@ overflow: hidden;
             color: #9D9D9D;
             text-align: left;
             margin-top:0;
+
+        }
+
+        footer #follow-icons{
+            margin:0;
         }
 
         footer  #follow-us-on{
             background-color:#FFFFFF;
             text-align:center;
-            padding-bottom:10%;
-            padding-top:2%;
-            /* padding-bottom:50px; */
+            /* padding-bottom:10%;
+            padding-top:2%; */
+            padding-left:0;
+            padding-right:0;
+            justify-content: center;
         }
 
         footer #follow-us-on h3{
@@ -647,12 +665,12 @@ overflow: hidden;
 
     footer #copyright-stuff{
         background-color:#000000;
-        text-align:center;
+        padding-left:0;
+        justify-content: center;
     }
 
     footer #copyright-stuff ul{
         margin:0;
-        padding-left:0; 
     }
 
     footer #copyright-stuff ul li{ 
@@ -691,7 +709,9 @@ overflow: hidden;
 
     footer #first-area{
         padding-top:82px;
+        margin:0;
     }
+
     
     footer  #form-area{
         padding-right:11.25%;
@@ -758,10 +778,13 @@ overflow: hidden;
         margin-top:0;       
     }
 
-
+    footer #follow-icons {
+        margin:0;
+    }
+    
     footer  #follow-icons #follow-us-on{
         display:flex; 
-        padding-left:35%; 
+        justify-content: center;
         padding-bottom:28px;
     }
 
@@ -774,7 +797,8 @@ overflow: hidden;
         height: 48px;
         align-items: center;
         margin:0 auto;
-        padding-left:33%; 
+        justify-content: center;
+        /* padding-left:33%;  */
     }
     footer #copyright-stuff #legal-elements {
         display:flex;
