@@ -391,27 +391,20 @@ overflow: hidden;
         display:flex;     
         align-items:center;
         justify-content: center;
-        /* gap:5.125%; */
         gap:80px;
         margin:0 2.5%;
-
-        /* padding-left:2.5%; */
-        /* margin-left:40px; */
         background-color: #E5E5E5 ;
         height: 160px; /*#F5F5F5*/
+        overflow-x:scroll;
+        overflow-y:hidden;
     }
-
-    /* .image-service path{
-        align-items:center ;
-    } */
-
-        #menu-service {
-            overflow-x:scroll;
-            overflow-y:hidden;
-        }
-        
+       
         #menu-service  li{
             list-style:none;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            
         }
 
         #menu-service  li a{
