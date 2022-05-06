@@ -496,13 +496,20 @@ overflow: hidden;
         flex-direction:column;
         margin:0;
     }
-
+    
     footer .col-sm-3 button{
-        display: flex;
-        
+        display: flex;        
+        /* position:relative; */
     }
 
-      button .collapsible #may-we-help-you{
+    /* footer .col-sm-3  .plus{
+        position:absolute;
+        transform: translateX(20%);    
+        
+    } */
+
+
+      button .collapsible #may-we-help-you, button .collapsible #company{
         background-color: #F5F5F5;
         color: #000;
         cursor: pointer;
@@ -647,6 +654,12 @@ overflow: hidden;
         background-color:#000000;
         text-align:center;
     }
+
+    footer #copyright-stuff ul{
+        margin:0;
+        padding-left:0; 
+    }
+
     footer #copyright-stuff ul li{ 
         list-style:none; 
     }
@@ -666,7 +679,7 @@ overflow: hidden;
         text-align: center;
         display:flex;
         gap:8px;
-        justify-content: space-around;
+        justify-content: center;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
