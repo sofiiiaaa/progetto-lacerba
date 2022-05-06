@@ -632,6 +632,7 @@ overflow: hidden;
            line-height: 16px;
            align-items: center;
            letter-spacing: 0.1em;
+           margin:0;
         }
 
         footer #follow-us-on ul{
@@ -640,6 +641,7 @@ overflow: hidden;
             justify-content: space-around;
             list-style:none ;
             margin-bottom:0;
+            margin:0;
         }
         
 
@@ -693,7 +695,6 @@ overflow: hidden;
     
     footer  #form-area{
         padding-right:11.25%;
-        padding-bottom:64px;
         padding-left:11.25%;
     }
 
