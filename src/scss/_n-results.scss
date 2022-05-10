@@ -1,0 +1,16 @@
+
+#n-results{
+    background-color: #F5F5F5;
+    
+}
+
+h3{
+    @include font ($lg-size,14px,16px);
+    letter-spacing: 0.05em;
+    color: #6B6B6B;    
+    padding-top: 7.2% ;
+    padding-right:auto;
+    padding-bottom:7.2%;
+    padding-left: 6.4%;
+    margin:0;
+}

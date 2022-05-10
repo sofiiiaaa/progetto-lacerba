@@ -1,0 +1,16 @@
+{
+  "name": "pag-2_progetto_lacerba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "sass-dev": "sass --watch src/scss:assest/css",
+      "sass-prod": "sass --no-source-map --style=compressed src/scss:assest/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}

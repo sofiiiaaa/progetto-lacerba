@@ -1,0 +1,60 @@
+.listato{
+    display:grid;
+    grid-template-columns: 50% 50% ;
+    background-color: #F5F5F5; 
+    overflow: hidden;
+    
+    
+    .image{
+        display:flex; 
+        border-right:0.1rem solid #F5F5F5;
+        position:relative;
+    }
+    img{
+        width:100%;
+    }
+
+    button{
+        &.new{
+            position:absolute;
+            transform:translateY(9px);
+            transform:translateX(8px);
+        }
+        &.favorite{
+            position:absolute;
+            transform: translateY(9px);
+            transform: translateX(130px);
+        }
+        &.for-six{
+            position:absolute;
+            transform:translateY(130px);
+            transform: translateX(8px);
+        }
+    }
+    .name{
+        @include font($lg-size, 14px,16px);
+    }
+    .product-description{
+        @include font($sm-size,14px,120%);
+    }
+    .actual-price{
+        @include font($xl-size,14px,200%);
+        letter-spacing: -0.03em;
+        margin-right:2%;
+    }
+    .original-price{
+        @include font ($sm-size,10px,12px);
+        text-decoration: line-through;
+    }
+
+    .prices{
+        display:flex;
+        background-color: $secondary-color ;
+    }
+
+    button{
+        border:none;
+        background: transparent;
+        
+    }
+}

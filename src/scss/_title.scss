@@ -1,0 +1,13 @@
+
+#title {
+  background-color: $secondary-color;
+
+  h1 {
+    @include font($sm-size, 32px, 120%);
+    padding-top: 24px;
+    padding-right:auto;
+    padding-bottom: 24px;
+    padding-left: 6.4%;
+    margin:0;
+  }
+}

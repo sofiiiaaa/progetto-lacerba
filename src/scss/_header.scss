@@ -1,0 +1,81 @@
+@import "../../src/scss/mixin";
+
+.screen-reader-only {
+   @include not-showed;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    height:65px;
+    /* position:relative;   */
+
+    h2{
+        @include font($sm-size,19px,22px);
+        letter-spacing: 0.01em;
+    }
+
+    .visual-icon,
+        #written-icon {
+            display: flex;
+            gap: 31px;
+            list-style: none;
+            margin: 0 auto;
+        }
+
+         #logo {
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right:10px;
+            border: #000000 dashed 3px;
+        }
+
+        #written-icon {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+        }
+}
+
+nav {
+    margin-left: 3%;
+
+}
+
+
+/***********MEDIA*****************************/
+
+@media(max-width:1023px) {
+
+    .sr-card-img {
+        flex-basis: auto;
+        height: 100vh;
+    }
+
+    #home,
+    #listato {
+        @include not-showed;
+    }
+}
+
+@media (min-width:1024px) {
+
+    #first-icon,
+    #second-icon {
+        @include not-showed;
+    }
+
+    #home a,
+    #listato a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+}

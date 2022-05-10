@@ -1,0 +1,15 @@
+@mixin not-showed{
+    display: none;
+} 
+
+@mixin to-right{
+    align-items: auto;
+}
+
+@mixin font ( $weight, $size,  $line-height){
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: $weight;
+        font-size: $size;
+        line-height: $line-height;
+}
