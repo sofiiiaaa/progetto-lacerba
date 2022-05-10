@@ -210,25 +210,30 @@ h3 {
   border: none;
 }
 
-.listato button.new {
-  position: absolute;
-  transform: translateY(0.56rem);
-  transform: translateX(4.2%);
-  background-color: #FFFFFF;
-}
-
 .listato button.favorite {
   position: absolute;
-  transform: translateY(9px);
-  transform: translateX(130px);
+  top: 4.8128%;
+  right: 8%;
   background-color: transparent;
+  width: 12px;
 }
 
-.listato button.for-six {
+.listato span.new {
   position: absolute;
-  transform: translateY(20px);
-  transform: translateX(48px);
+  top: 4.8128%;
+  left: 2.1390%;
   background-color: #FFFFFF;
+  width: 31px;
+  text-align: center;
+}
+
+.listato span.for-six {
+  position: absolute;
+  bottom: 4%;
+  left: 2.1390%;
+  background-color: #FFFFFF;
+  width: 21px;
+  text-align: center;
 }
 
 .listato .name {
@@ -306,13 +311,13 @@ h3 {
   .listato #item-18 {
     display: block;
   }
-  .listato button.new {
-    display: none;
-  }
   .listato button.favorite {
     display: none;
   }
-  .listato button.for-six {
+  .listato span.new {
+    display: none;
+  }
+  .listato span.for-six {
     display: none;
   }
   .listato .name {

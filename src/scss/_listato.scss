@@ -18,25 +18,36 @@
     }
 
     button{
-        border: none;
+        border: none;       
+      
+                &.favorite {
+                    position: absolute;
+                    top:4.8128%;
+                    right:8%;
+                    // right:5.5240%;
+                    background-color: transparent;
+                    width: 12px;
+                }
+    }
+
+    span{
         &.new{
-            position:absolute;
-            transform:translateY(0.56rem);
-            transform:translateX(4.2%);
-            background-color: $secondary-color;
-        }
-        &.favorite{
-            position:absolute;
-            transform: translateY(9px);
-            transform: translateX(130px);
-            background-color: transparent;
-        }
-        &.for-six{
-            position:absolute;
-            transform:translateY(20px);
-            transform: translateX(48px);
-            background-color: $secondary-color;
-        }
+                position: absolute;
+                top:4.8128%;
+                left:2.1390%;
+                background-color: $secondary-color;
+                width: 31px;
+                text-align: center;
+            }
+        
+            &.for-six {
+                position: absolute;
+                bottom:4%;
+                left:2.1390%;
+                background-color: $secondary-color;
+                width:21px;
+                text-align: center;
+            }
     }
     .name{
         @include font($lg-size, 14px,16px);
@@ -101,41 +112,45 @@
                 }
 
                  button {
-                     &.new {
-                        @include not-showed
-                     }
-        
-                     &.favorite {
-                        @include not-showed
-                     }
-        
-                     &.for-six {
-                    @include not-showed
-                     }
+                      
+                    &.favorite {
+                         @include not-showed;
+                    }
+                    
+                 }
+
+                 span{
+                &.new {
+                        @include not-showed;
+                    }
+                    
+                        &.for-six {
+                            @include not-showed;
+                        }
                  }
         
                  .name {
-                    @include not-showed
+                    @include not-showed;
                  }
         
                  .product-description {
-                    @include not-showed
+                    @include not-showed;
                  }
         
                  .actual-price {
-                    @include not-showed
+                    @include not-showed;
                  }
         
                  .original-price {
-                    @include not-showed
+                    @include not-showed;
                  }
         
                  .prices {
-                    @include not-showed
+                    @include not-showed;
                  }
         
                  button#add-to-shop{
-                     @include not-showed
+                     @include not-showed;
         
                  }
     }
