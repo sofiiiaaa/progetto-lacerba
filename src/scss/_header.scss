@@ -46,11 +46,12 @@ header {
 
 nav {
     margin-left: 3%;
-
 }
+       
 
 
 /***********MEDIA*****************************/
+
 
 @media(max-width:1023px) {
 
@@ -61,6 +62,25 @@ nav {
 
     #home,
     #listato {
+        @include not-showed;
+    }
+
+        #screen-sm{
+            @include not-showed;
+        }
+
+        #screen-md{
+        display:block;
+
+    }
+}
+
+@media (min-width:320px) {
+    #screen-sm {
+        display: block;
+    }
+
+    #screen-md {
         @include not-showed;
     }
 }
@@ -77,5 +97,34 @@ nav {
         color: #000000;
         text-decoration: none;
     }
+
+        #screen-sm {
+            @include not-showed;
+        }
+    
+        #screen-md {
+            display:flex;  
+            //  height:70px;
+            height:70px;
+            margin-left:2.625%;
+            
+            button{
+                border:transparent;
+                background-color: transparent;
+
+            }
+            h3{
+                margin:auto;
+                margin-right:0;
+                padding:0 2.68% 0 0;
+                @include font(700, 16px,150%);
+                letter-spacing: 0.05em;
+                color:#9D9D9D;
+                
+
+                
+            }
+        }
+
 
 }

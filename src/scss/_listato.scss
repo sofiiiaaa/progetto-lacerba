@@ -3,6 +3,7 @@
     grid-template-columns: 50% 50% ;
     background-color: #F5F5F5; 
     overflow: hidden;
+
     
     #item-17, #item-18{
         display:none;
@@ -19,13 +20,13 @@
 
     button{
         border: none;       
-      
+        background-color: transparent;
+        border:transparent ;
                 &.favorite {
                     position: absolute;
                     top:4.8128%;
                     right:8%;
                     // right:5.5240%;
-                    background-color: transparent;
                     width: 12px;
                 }
     }

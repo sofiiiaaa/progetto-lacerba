@@ -132,6 +132,21 @@ nav {
   #listato {
     display: none;
   }
+  #screen-sm {
+    display: none;
+  }
+  #screen-md {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) {
+  #screen-sm {
+    display: block;
+  }
+  #screen-md {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -143,6 +158,30 @@ nav {
   #listato a {
     color: #000000;
     text-decoration: none;
+  }
+  #screen-sm {
+    display: none;
+  }
+  #screen-md {
+    display: flex;
+    height: 70px;
+    margin-left: 2.625%;
+  }
+  #screen-md button {
+    border: transparent;
+    background-color: transparent;
+  }
+  #screen-md h3 {
+    margin: auto;
+    margin-right: 0;
+    padding: 0 2.68% 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #9D9D9D;
   }
 }
 
@@ -208,13 +247,14 @@ h3 {
 
 .listato button {
   border: none;
+  background-color: transparent;
+  border: transparent;
 }
 
 .listato button.favorite {
   position: absolute;
   top: 4.8128%;
   right: 8%;
-  background-color: transparent;
   width: 12px;
 }
 
