@@ -264,7 +264,7 @@ h3 {
   background-color: #FFFFFF;
 }
 
-.listato button {
+.listato button#add-to-shop {
   border: none;
   background: transparent;
 }
@@ -283,11 +283,39 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
+    row-gap: 67px;
     overflow: hidden;
   }
   .listato #item-17,
   .listato #item-18 {
     display: block;
+  }
+  .listato button.new {
+    display: none;
+  }
+  .listato button.favorite {
+    display: none;
+  }
+  .listato button.for-six {
+    display: none;
+  }
+  .listato .name {
+    display: none;
+  }
+  .listato .product-description {
+    display: none;
+  }
+  .listato .actual-price {
+    display: none;
+  }
+  .listato .original-price {
+    display: none;
+  }
+  .listato .prices {
+    display: none;
+  }
+  .listato button#add-to-shop {
+    display: none;
   }
 }
 
