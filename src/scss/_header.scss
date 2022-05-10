@@ -77,7 +77,14 @@ nav {
 
 @media (min-width:320px) {
     #screen-sm {
-        display: block;
+        display: flex;
+        height:70px;
+        align-items:center;
+
+        h3{
+            padding-top:0;
+            padding-bottom:0;
+        }
     }
 
     #screen-md {

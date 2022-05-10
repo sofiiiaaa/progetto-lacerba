@@ -142,7 +142,13 @@ nav {
 
 @media (min-width: 320px) {
   #screen-sm {
-    display: block;
+    display: flex;
+    height: 70px;
+    align-items: center;
+  }
+  #screen-sm h3 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
   #screen-md {
     display: none;
@@ -336,6 +342,12 @@ h3 {
   }
   .listato .prices {
     background-color: #F5F5F5;
+  }
+  .listato span.new {
+    background-color: transparent;
+  }
+  .listato span.for-six {
+    background-color: transparent;
   }
 }
 
