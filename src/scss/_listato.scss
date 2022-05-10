@@ -62,6 +62,9 @@
 
     button#add-to-shop {        
         background: transparent;
+        margin:auto;
+        margin-right:0;
+        padding-right:8%;
         
     }
 }
@@ -72,6 +75,15 @@
             grid-template-columns: 25% 25% 25% 25%;
             background-color: #F5F5F5;
             overflow: hidden;
+
+        button#add-to-shop {
+                 @include not-showed;        
+            }
+
+                .prices {
+                    background-color: #F5F5F5  ;
+                }
+
     }
 }
 

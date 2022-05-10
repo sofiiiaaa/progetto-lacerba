@@ -274,6 +274,9 @@ h3 {
 
 .listato button#add-to-shop {
   background: transparent;
+  margin: auto;
+  margin-right: 0;
+  padding-right: 8%;
 }
 
 @media (min-width: 767px) {
@@ -282,6 +285,12 @@ h3 {
     grid-template-columns: 25% 25% 25% 25%;
     background-color: #F5F5F5;
     overflow: hidden;
+  }
+  .listato button#add-to-shop {
+    display: none;
+  }
+  .listato .prices {
+    background-color: #F5F5F5;
   }
 }
 
