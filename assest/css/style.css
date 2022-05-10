@@ -192,6 +192,10 @@ h3 {
   overflow: hidden;
 }
 
+.listato #item-17, .listato #item-18 {
+  display: none;
+}
+
 .listato .image {
   display: flex;
   border-right: 0.1rem solid #F5F5F5;
@@ -263,6 +267,28 @@ h3 {
 .listato button {
   border: none;
   background: transparent;
+}
+
+@media (min-width: 767px) {
+  .listato {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #F5F5F5;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1023px) {
+  .listato {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #F5F5F5;
+    overflow: hidden;
+  }
+  .listato #item-17,
+  .listato #item-18 {
+    display: block;
+  }
 }
 
 /***********MENU-SERVICE***************/

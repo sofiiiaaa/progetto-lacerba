@@ -4,6 +4,9 @@
     background-color: #F5F5F5; 
     overflow: hidden;
     
+    #item-17, #item-18{
+        display:none;
+    }
     
     .image{
         display:flex; 
@@ -58,3 +61,27 @@
         
     }
 }
+
+@media (min-width:767px){
+    .listato {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            background-color: #F5F5F5;
+            overflow: hidden;
+    }
+}
+
+@media (min-width:1023px){
+    .listato {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            background-color: #F5F5F5;
+            overflow: hidden;
+
+            #item-17,
+                #item-18 {
+                    display: block;
+                }
+    }
+}
+
