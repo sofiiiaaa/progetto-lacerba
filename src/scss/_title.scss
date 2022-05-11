@@ -11,3 +11,14 @@
     margin:0;
   }
 }
+
+@media (min-width:767px){
+  #title{
+    height:6.75rem;
+    // padding-top:3.5rem;
+
+    h1{
+      text-align: center;
+    }
+  }
+}

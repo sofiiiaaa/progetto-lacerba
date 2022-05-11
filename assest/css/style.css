@@ -82,7 +82,7 @@ header {
   align-items: center;
   justify-content: center;
   border: none;
-  height: 65px;
+  height: 100px;
   /* position:relative;   */
 }
 
@@ -140,6 +140,53 @@ nav {
   }
 }
 
+/*************TITLE********************/
+#title {
+  background-color: #FFFFFF;
+}
+
+#title h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  padding-top: 24px;
+  padding-right: auto;
+  padding-bottom: 24px;
+  padding-left: 6.4%;
+  margin: 0;
+}
+
+@media (min-width: 767px) {
+  #title {
+    height: 6.75rem;
+  }
+  #title h1 {
+    text-align: center;
+  }
+}
+
+/************N-RESULTS***************/
+#n-results {
+  background-color: #F5F5F5;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #6B6B6B;
+  padding-top: 7.2%;
+  padding-right: auto;
+  padding-bottom: 7.2%;
+  padding-left: 6.4%;
+  margin: 0;
+}
+
 @media (min-width: 320px) {
   #screen-sm {
     display: flex;
@@ -155,7 +202,7 @@ nav {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 767px) {
   #first-icon,
   #second-icon {
     display: none;
@@ -188,67 +235,6 @@ nav {
     line-height: 150%;
     letter-spacing: 0.05em;
     color: #9D9D9D;
-  }
-}
-
-/*************TITLE********************/
-#title {
-  background-color: #FFFFFF;
-}
-
-#title h1 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 120%;
-  padding-top: 24px;
-  padding-right: auto;
-  padding-bottom: 24px;
-  padding-left: 6.4%;
-  margin: 0;
-}
-
-/************N-RESULTS***************/
-#n-results {
-  background-color: #F5F5F5;
-}
-
-h3 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.05em;
-  color: #6B6B6B;
-  padding-top: 7.2%;
-  padding-right: auto;
-  padding-bottom: 7.2%;
-  padding-left: 6.4%;
-  margin: 0;
-}
-
-@media (min-width: 767px) {
-  #n-results {
-    height: 70px;
-  }
-  #n-results #screen-sm {
-    display: none;
-  }
-  #n-results #screen-md {
-    display: flex;
-    align-items: center;
-  }
-  #n-results h3 {
-    margin: auto;
-    margin-right: 2.6875%;
-    padding: 0;
-  }
-  #n-results button {
-    background-color: transparent;
-    border: none;
-    margin-left: 2.625%;
   }
 }
 
