@@ -12,3 +12,36 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+
+/*******************per il cambio visualizzazione listato************** */
+
+const imgAndDescriptionBtn = document.querySelector(".img-and-description-btn");
+const justImgButton = document.querySelector(".just-img-btn");
+const listato = document.querySelector(".listato");
+
+imgAndDescriptionBtn.addEventListener("click", imgAndDescription);
+justImgButton.addEventListener("click", justImg);
+
+// console.log(imgAndDescriptionBtn);
+function imgAndDescription (e){
+  // console.log("hii");
+  console.log(e);
+  // console.log(listato.classList);
+  listato.classList.remove("listato--just-img");
+  // console.log(listato.classList);
+
+  imgAndDescriptionBtn.classList.add("active");
+  justImgButton.classList.remove("active");
+}
+
+function justImg (e) {
+  console.log(e);
+  // console.log(listato.classList);
+  listato.classList.add("listato--just-img");
+  // console.log(listato.classList);
+
+  imgAndDescriptionBtn.remove("active");
+  justImgButton.add("active");
+}

@@ -229,6 +229,29 @@ h3 {
   margin: 0;
 }
 
+@media (min-width: 767px) {
+  #n-results {
+    height: 70px;
+  }
+  #n-results #screen-sm {
+    display: none;
+  }
+  #n-results #screen-md {
+    display: flex;
+    align-items: center;
+  }
+  #n-results h3 {
+    margin: auto;
+    margin-right: 2.6875%;
+    padding: 0;
+  }
+  #n-results button {
+    background-color: transparent;
+    border: none;
+    margin-left: 2.625%;
+  }
+}
+
 /*********LISTATO***************/
 .listato {
   display: grid;
@@ -349,45 +372,42 @@ h3 {
   .listato span.for-six {
     background-color: transparent;
   }
-}
-
-@media (min-width: 1023px) {
-  .listato {
+  .listato.listato--just-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
     row-gap: 67px;
     overflow: hidden;
   }
-  .listato #item-17,
-  .listato #item-18 {
+  .listato.listato--just-img #item-17,
+  .listato.listato--just-img #item-18 {
     display: block;
   }
-  .listato button.favorite {
+  .listato.listato--just-img button.favorite {
     display: none;
   }
-  .listato span.new {
+  .listato.listato--just-img span.new {
     display: none;
   }
-  .listato span.for-six {
+  .listato.listato--just-img span.for-six {
     display: none;
   }
-  .listato .name {
+  .listato.listato--just-img .name {
     display: none;
   }
-  .listato .product-description {
+  .listato.listato--just-img .product-description {
     display: none;
   }
-  .listato .actual-price {
+  .listato.listato--just-img .actual-price {
     display: none;
   }
-  .listato .original-price {
+  .listato.listato--just-img .original-price {
     display: none;
   }
-  .listato .prices {
+  .listato.listato--just-img .prices {
     display: none;
   }
-  .listato button#add-to-shop {
+  .listato.listato--just-img button#add-to-shop {
     display: none;
   }
 }

@@ -108,64 +108,65 @@
                     }
                 }
 
+                &.listato--just-img{
+                    display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                        background-color: #F5F5F5;
+                        row-gap: 67px;
+                        overflow: hidden;
+
+                        #item-17,
+                            #item-18 {
+                                display: block;
+                            }
+                        
+                            button {
+                        
+                                &.favorite {
+                                    @include not-showed;
+                                }
+                        
+                            }
+                        
+                            span {
+                                &.new {
+                                    @include not-showed;
+                                }
+                        
+                                &.for-six {
+                                    @include not-showed;
+                                }
+                            }
+                        
+                            .name {
+                                @include not-showed;
+                            }
+                        
+                            .product-description {
+                                @include not-showed;
+                            }
+                        
+                            .actual-price {
+                                @include not-showed;
+                            }
+                        
+                            .original-price {
+                                @include not-showed;
+                            }
+                        
+                            .prices {
+                                @include not-showed;
+                            }
+                        
+                            button#add-to-shop {
+                                @include not-showed;
+                        
+                            }
+                    }
+                    // .control-view button:active
+                    
     }
 }
 
-@media (min-width:1023px){
-    .listato {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-            background-color: #F5F5F5;
-            row-gap: 67px;
-            overflow: hidden;
 
-            #item-17,
-                #item-18 {
-                    display: block;
-                }
-
-                 button {
-                      
-                    &.favorite {
-                         @include not-showed;
-                    }
-                    
-                 }
-
-                 span{
-                &.new {
-                        @include not-showed;                       
-                    }
-                    
-                        &.for-six {
-                            @include not-showed;
-                        }
-                 }
-        
-                 .name {
-                    @include not-showed;
-                 }
-        
-                 .product-description {
-                    @include not-showed;
-                 }
-        
-                 .actual-price {
-                    @include not-showed;
-                 }
-        
-                 .original-price {
-                    @include not-showed;
-                 }
-        
-                 .prices {
-                    @include not-showed;
-                 }
-        
-                 button#add-to-shop{
-                     @include not-showed;
-        
-                 }
-    }
-}
 
