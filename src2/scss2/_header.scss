@@ -12,7 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     border:none;
-    height:100px;
+    height:70px;
     /* position:relative;   */
 
     h2{
@@ -54,6 +54,9 @@ nav {
 
 
 @media(max-width:1023px) {
+        header{            
+            height:100px;
+        }
 
     .sr-card-img {
         flex-basis: auto;

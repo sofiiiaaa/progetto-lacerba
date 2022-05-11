@@ -13,3 +13,8 @@
         font-size: $size;
         line-height: $line-height;
 }
+
+@mixin buttons-style{
+    border: transparent;
+    background-color: transparent;
+}

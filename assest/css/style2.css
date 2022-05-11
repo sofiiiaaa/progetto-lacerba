@@ -82,7 +82,7 @@ header {
   align-items: center;
   justify-content: center;
   border: none;
-  height: 100px;
+  height: 70px;
   /* position:relative;   */
 }
 
@@ -124,6 +124,9 @@ nav {
 
 /***********MEDIA*****************************/
 @media (max-width: 1023px) {
+  header {
+    height: 100px;
+  }
   .sr-card-img {
     flex-basis: auto;
     height: 100vh;
@@ -168,32 +171,106 @@ nav {
 }
 
 /*************ACQUISTO-CARD**********/
-#image-to-pay {
+.card-product-to-shop #image-to-pay {
   position: relative;
   display: flex;
   overflow-x: scroll;
 }
 
-#image-to-pay img {
+.card-product-to-shop #image-to-pay img {
   width: 100%;
 }
 
-#image-to-pay button.favorite {
-  position: absolute;
-  top: 4.8%;
-  right: 6.933333%;
+.card-product-to-shop #image-to-pay button {
   border: transparent;
   background-color: transparent;
 }
 
-#image-to-pay button.favorite svg {
+.card-product-to-shop #image-to-pay button.favorite {
+  position: absolute;
+  top: 4.8%;
+  right: 6.933333%;
+}
+
+.card-product-to-shop #image-to-pay button.favorite svg {
   height: 20px;
 }
 
-#image-to-pay button.turn-back {
+.card-product-to-shop #image-to-pay button.turn-back {
   position: absolute;
   top: 4.8%;
   left: 6.933333%;
+}
+
+.card-product-to-shop #text-to-pay {
+  margin-left: 6.382978%;
+  margin-bottom: 2rem;
+}
+
+.card-product-to-shop #text-to-pay h2.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.card-product-to-shop #text-to-pay p.product-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.card-product-to-shop #text-to-pay .actual-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.card-product-to-shop #text-to-pay .discount-percentage {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.card-product-to-shop #text-to-pay .original-price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  text-decoration: line-through;
+}
+
+.card-product-to-shop #text-to-pay .prices {
+  margin-bottom: 13.397129%;
+}
+
+.card-product-to-shop #text-to-pay .add-to-cart {
+  display: flex;
+  background-color: #000000;
+  margin-right: 7.31707%;
+  justify-content: center;
+  gap: 3.6585%;
+}
+
+.card-product-to-shop #text-to-pay .add-to-cart p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.card-product-to-shop #text-to-pay button.add-to-shop-btn {
   border: transparent;
   background-color: transparent;
 }

@@ -1,31 +1,83 @@
-#image-to-pay{
-    position:relative;
-    display:flex;
-    overflow-x: scroll;
-    img{
-        width:100%;
-    }
+.card-product-to-shop{
+        #image-to-pay {
+                position: relative;
+                display: flex;
+                overflow-x: scroll;
+        
+                img {
+                    width: 100%;
+                }
+        
+                button {
+                    @include buttons-style;
+                    &.favorite {
+                        position: absolute;
+                        top: 4.8%;
+                        ;
+                        right: 6.933333%;
+        
+                        svg {
+                            height: 20px;
+                        }
+                    }
+        
+                    &.turn-back {
+                        position: absolute;
+                        top: 4.8%;
+                        left: 6.933333%;
 
-    button{
-
-        &.favorite{
-            position:absolute;
-            top:4.8%;;
-            right:6.933333%;
-            border: transparent;
-            background-color: transparent;
-
-            svg{
-                height:20px;
+        
+                    }
+                }        
             }
-        }
-        &.turn-back{
-            position:absolute;
-            top:4.8%;
-            left: 6.933333%;
-            border: transparent;
-            background-color: transparent;
-            
-        }
-    }
+
+            #text-to-pay {
+                    margin-left: 6.382978%;   
+                    margin-bottom: 2rem;                
+                    
+                    h2.name {
+                        @include font($lg-size, 16px, 120%);
+                    }
+        
+                    p.product-description {
+                        @include font($sm-size, 14px, 16px);
+                        letter-spacing: 0.01em;
+                    }
+
+                    .actual-price{
+                        @include font($xl-size, 20px, 120%);
+                    }
+
+                    .discount-percentage{
+                        @include font($lg-size, 16px, 170%);
+                    }
+
+                    .original-price{
+                        @include font($sm-size, 16px, 170%);
+                        text-decoration: line-through;
+                    }
+
+                    .prices{
+                        margin-bottom: 13.397129%;
+                    }
+
+                    .add-to-cart{
+                        display:flex;
+                        background-color: $main-color;
+                        margin-right:7.31707%;
+                        justify-content: center;
+                        gap:3.6585%;
+                       
+                        p{
+                            @include font($lg-size,16px,19px);
+                            color:$secondary-color;
+                        }
+                    }
+
+                    button.add-to-shop-btn{
+                        @include buttons-style;
+                    }
+                }
+
 }
+
