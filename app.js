@@ -42,6 +42,6 @@ function justImg (e) {
   listato.classList.add("listato--just-img");
   // console.log(listato.classList);
 
-  imgAndDescriptionBtn.remove("active");
-  justImgButton.add("active");
+  imgAndDescriptionBtn.classList.remove("active");
+  justImgButton.classList.add("active");
 }
