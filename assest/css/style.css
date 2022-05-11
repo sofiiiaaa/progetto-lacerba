@@ -313,9 +313,19 @@ h3 {
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
-  line-height: 200%;
+  line-height: 16px;
   letter-spacing: -0.03em;
   margin-right: 2%;
+  margin-left: 0.5rem;
+}
+
+.listato .actual-price span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.03em;
 }
 
 .listato .original-price {
@@ -330,6 +340,8 @@ h3 {
 .listato .prices {
   display: flex;
   background-color: #FFFFFF;
+  margin: 0 0.5rem 2.063rem 0.5rem;
+  align-items: center;
 }
 
 .listato button#add-to-shop {
@@ -345,6 +357,28 @@ h3 {
     grid-template-columns: 25% 25% 25% 25%;
     background-color: #F5F5F5;
     overflow: hidden;
+  }
+  .listato .actual-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 200%;
+  }
+  .listato .actual-price span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 200%;
+    margin-right: 0.5rem;
+  }
+  .listato .original-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 230%;
   }
   .listato button#add-to-shop {
     display: none;

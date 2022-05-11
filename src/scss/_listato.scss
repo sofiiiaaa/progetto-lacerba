@@ -58,9 +58,15 @@
         margin-bottom:2.25rem;
     }
     .actual-price{
-        @include font($xl-size,14px,200%);
+        @include font($xl-size,14px,16px);
         letter-spacing: -0.03em;
         margin-right:2%;
+        margin-left:0.5rem;
+
+        span{
+            @include font($xl-size, 12px, 14px);
+            letter-spacing: -0.03em;
+        }
     }
     .original-price{
         @include font ($sm-size,10px,12px);
@@ -70,6 +76,8 @@
     .prices{
         display:flex;
         background-color: $secondary-color ;
+        margin:0 0.5rem 2.063rem 0.5rem;
+        align-items: center;
     }
 
     button#add-to-shop {        
@@ -87,6 +95,18 @@
             grid-template-columns: 25% 25% 25% 25%;
             background-color: #F5F5F5;
             overflow: hidden;
+
+            .actual-price {
+                    @include font($xl-size, 14px, 200%);
+                    span{
+                    @include font($xl-size, 14px, 200%);
+                    margin-right:0.5rem;
+                    }
+            }
+
+            .original-price{
+                 @include font ($sm-size,12px,230%);
+            }
 
         button#add-to-shop {
                  @include not-showed;        
