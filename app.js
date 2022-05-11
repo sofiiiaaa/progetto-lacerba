@@ -36,7 +36,7 @@ function imgAndDescription (e){
   imgAndDescriptionBtn.classList.add("active");
   justImgButton.classList.remove("active");
 
-  // console.log(imageListato.remove("aria-label")); /*****per rimuovere aria-label da dove c'è già la descrizione*/
+   //console.log(imageListato.remove("aria-label")); /*****per rimuovere aria-label da dove c'è già la descrizione*/
 }
 
 function justImg (e) {

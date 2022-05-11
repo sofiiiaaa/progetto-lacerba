@@ -82,7 +82,7 @@
         align-items: center;
     }
 
-    button#add-to-shop {        
+    button.add-to-shop {        
         background: transparent;
         margin:auto;
         margin-right:0;
@@ -118,7 +118,7 @@
                  @include font ($sm-size,12px,230%);
             }
 
-        button#add-to-shop {
+        button.add-to-shop {
                  @include not-showed;        
             }
 

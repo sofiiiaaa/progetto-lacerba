@@ -346,7 +346,7 @@ h3 {
   align-items: center;
 }
 
-.listato button#add-to-shop {
+.listato button.add-to-shop {
   background: transparent;
   margin: auto;
   margin-right: 0;
@@ -388,7 +388,7 @@ h3 {
     font-size: 12px;
     line-height: 230%;
   }
-  .listato button#add-to-shop {
+  .listato button.add-to-shop {
     display: none;
   }
   .listato .prices {
