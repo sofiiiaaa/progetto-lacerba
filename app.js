@@ -20,6 +20,7 @@ for (i = 0; i < coll.length; i++) {
 const imgAndDescriptionBtn = document.querySelector(".img-and-description-btn");
 const justImgButton = document.querySelector(".just-img-btn");
 const listato = document.querySelector(".listato");
+const imageListato= document.querySelector(".descriptive-img");
 
 imgAndDescriptionBtn.addEventListener("click", imgAndDescription);
 justImgButton.addEventListener("click", justImg);
@@ -29,11 +30,13 @@ function imgAndDescription (e){
   // console.log("hii");
   console.log(e);
   // console.log(listato.classList);
-  listato.classList.remove("listato--just-img");
+  listato.classList.remove("listato--just-img");  
   // console.log(listato.classList);
 
   imgAndDescriptionBtn.classList.add("active");
   justImgButton.classList.remove("active");
+
+  // console.log(imageListato.remove("aria-label")); /*****per rimuovere aria-label da dove c'è già la descrizione*/
 }
 
 function justImg (e) {
@@ -45,3 +48,4 @@ function justImg (e) {
   imgAndDescriptionBtn.classList.remove("active");
   justImgButton.classList.add("active");
 }
+
