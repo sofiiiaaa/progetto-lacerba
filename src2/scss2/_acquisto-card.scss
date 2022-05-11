@@ -1,16 +1,31 @@
-.image-to-pay{
+#image-to-pay{
+    position:relative;
+    display:flex;
+    overflow-x: scroll;
     img{
-        position:relative;
+        width:100%;
     }
 
     button{
+
         &.favorite{
             position:absolute;
-            top:5px;
+            top:4.8%;;
+            right:6.933333%;
+            border: transparent;
+            background-color: transparent;
+
+            svg{
+                height:20px;
+            }
         }
         &.turn-back{
             position:absolute;
-            top:6px;
+            top:4.8%;
+            left: 6.933333%;
+            border: transparent;
+            background-color: transparent;
+            
         }
     }
 }

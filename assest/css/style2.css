@@ -167,278 +167,35 @@ nav {
   }
 }
 
-/************N-RESULTS***************/
-#n-results {
-  background-color: #F5F5F5;
-}
-
-h3 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.05em;
-  color: #6B6B6B;
-  padding-top: 7.2%;
-  padding-right: auto;
-  padding-bottom: 7.2%;
-  padding-left: 6.4%;
-  margin: 0;
-}
-
-@media (min-width: 320px) {
-  #screen-sm {
-    display: flex;
-    height: 70px;
-    align-items: center;
-  }
-  #screen-sm h3 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  #screen-md {
-    display: none;
-  }
-}
-
-@media (min-width: 767px) {
-  #first-icon,
-  #second-icon {
-    display: none;
-  }
-  #home a,
-  #listato a {
-    color: #000000;
-    text-decoration: none;
-  }
-  #screen-sm {
-    display: none;
-  }
-  #screen-md {
-    display: flex;
-    height: 70px;
-    margin-left: 2.625%;
-  }
-  #screen-md button {
-    border: transparent;
-    background-color: transparent;
-  }
-  #screen-md h3 {
-    margin: auto;
-    margin-right: 0;
-    padding: 0 2.68% 0 0;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.05em;
-    color: #9D9D9D;
-  }
-}
-
-/*********LISTATO***************/
-.listato {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: #F5F5F5;
-  overflow: hidden;
-}
-
-.listato #item-17, .listato #item-18 {
-  display: none;
-}
-
-.listato .image {
-  display: flex;
-  border-right: 0.1rem solid #F5F5F5;
+/*************ACQUISTO-CARD**********/
+#image-to-pay {
   position: relative;
+  display: flex;
+  overflow-x: scroll;
 }
 
-.listato img {
+#image-to-pay img {
   width: 100%;
 }
 
-.listato button {
-  border: none;
-  background-color: transparent;
+#image-to-pay button.favorite {
+  position: absolute;
+  top: 4.8%;
+  right: 6.933333%;
   border: transparent;
+  background-color: transparent;
 }
 
-.listato button.favorite {
+#image-to-pay button.favorite svg {
+  height: 20px;
+}
+
+#image-to-pay button.turn-back {
   position: absolute;
-  top: 4.8128%;
-  right: 8%;
-  width: 12px;
-}
-
-.listato span.new {
-  position: absolute;
-  top: 4.8128%;
-  left: 2.1390%;
-  background-color: #FFFFFF;
-  width: 31px;
-  text-align: center;
-}
-
-.listato span.for-six {
-  position: absolute;
-  bottom: 4%;
-  left: 2.1390%;
-  background-color: #FFFFFF;
-  width: 21px;
-  text-align: center;
-}
-
-.listato .name {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  margin-left: 0.5rem;
-}
-
-.listato .product-description {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 120%;
-  margin-left: 0.5rem;
-  margin-bottom: 2.25rem;
-}
-
-.listato .actual-price {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: -0.03em;
-  margin-right: 2%;
-  margin-left: 0.5rem;
-}
-
-.listato .actual-price span {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: -0.03em;
-}
-
-.listato .original-price {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  text-decoration: line-through;
-}
-
-.listato .prices {
-  display: flex;
-  background-color: #FFFFFF;
-  margin: 0 0.5rem 2.063rem 0.5rem;
-  align-items: center;
-}
-
-.listato button.add-to-shop {
-  background: transparent;
-  margin: auto;
-  margin-right: 0;
-  padding-right: 8%;
-}
-
-@media (min-width: 767px) {
-  .listato {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    background-color: #F5F5F5;
-    overflow: hidden;
-  }
-  .listato .name {
-    margin-left: 1rem;
-  }
-  .listato .product-description {
-    margin-left: 1rem;
-  }
-  .listato .actual-price {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 200%;
-    margin-left: 0px;
-  }
-  .listato .actual-price span {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 200%;
-  }
-  .listato .original-price {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 230%;
-  }
-  .listato button.add-to-shop {
-    display: none;
-  }
-  .listato .prices {
-    background-color: #F5F5F5;
-    margin-left: 1rem;
-  }
-  .listato span.new {
-    background-color: transparent;
-  }
-  .listato span.for-six {
-    background-color: transparent;
-  }
-  .listato.listato--just-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: #F5F5F5;
-    row-gap: 67px;
-    overflow: hidden;
-  }
-  .listato.listato--just-img #item-17,
-  .listato.listato--just-img #item-18 {
-    display: block;
-  }
-  .listato.listato--just-img button.favorite {
-    display: none;
-  }
-  .listato.listato--just-img span.new {
-    display: none;
-  }
-  .listato.listato--just-img span.for-six {
-    display: none;
-  }
-  .listato.listato--just-img .name {
-    display: none;
-  }
-  .listato.listato--just-img .product-description {
-    display: none;
-  }
-  .listato.listato--just-img .actual-price {
-    display: none;
-  }
-  .listato.listato--just-img .original-price {
-    display: none;
-  }
-  .listato.listato--just-img .prices {
-    display: none;
-  }
-  .listato.listato--just-img button#add-to-shop {
-    display: none;
-  }
+  top: 4.8%;
+  left: 6.933333%;
+  border: transparent;
+  background-color: transparent;
 }
 
 /***********MENU-SERVICE***************/

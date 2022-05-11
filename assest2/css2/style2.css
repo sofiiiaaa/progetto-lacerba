@@ -160,6 +160,33 @@ nav {
     text-align: center;
   }
 }
+/*************ACQUISTO-CARD**********/
+#image-to-pay {
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+}
+#image-to-pay img {
+  width: 100%;
+}
+#image-to-pay button.favorite {
+  position: absolute;
+  top: 4.8%;
+  right: 6.933333%;
+  border: transparent;
+  background-color: transparent;
+}
+#image-to-pay button.favorite svg {
+  height: 20px;
+}
+#image-to-pay button.turn-back {
+  position: absolute;
+  top: 4.8%;
+  left: 6.933333%;
+  border: transparent;
+  background-color: transparent;
+}
+
 /***********MENU-SERVICE***************/
 /**********************MENU SERVICE********************************************************/
 #menu-service {
@@ -551,4 +578,4 @@ footer #copyright-stuff #legal-elements {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
