@@ -44,17 +44,15 @@ button svg {
   padding-right: 2%;
   position: relative;
 }
-
 #discount-message span {
   color: #FFFFFF;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
   letter-spacing: 0.1em;
 }
-
 #discount-message button {
   position: absolute;
   top: 50%;
@@ -64,7 +62,6 @@ button svg {
   background-color: transparent;
   right: 2.36625%;
 }
-
 #discount-message button svg {
   width: 25px;
   color: #fff;
@@ -85,16 +82,14 @@ header {
   height: 100px;
   /* position:relative;   */
 }
-
 header h2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 22px;
   letter-spacing: 0.01em;
 }
-
 header .visual-icon,
 header #written-icon {
   display: flex;
@@ -102,16 +97,14 @@ header #written-icon {
   list-style: none;
   margin: 0 auto;
 }
-
 header #logo {
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
   border: #000000 dashed 3px;
 }
-
 header #written-icon {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -128,25 +121,26 @@ nav {
     flex-basis: auto;
     height: 100vh;
   }
+
   #home,
-  #listato {
+#listato {
     display: none;
   }
+
   #screen-sm {
     display: none;
   }
+
   #screen-md {
     display: block;
   }
 }
-
 /*************TITLE********************/
 #title {
   background-color: #FFFFFF;
 }
-
 #title h1 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -166,7 +160,6 @@ nav {
     text-align: center;
   }
 }
-
 /***********MENU-SERVICE***************/
 /**********************MENU SERVICE********************************************************/
 #menu-service {
@@ -181,18 +174,16 @@ nav {
   overflow-x: scroll;
   overflow-y: hidden;
 }
-
 #menu-service li {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 #menu-service li a {
   text-decoration: none;
   color: #000;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -200,12 +191,11 @@ nav {
   text-align: center;
   letter-spacing: 0.01em;
 }
-
 #menu-service p {
-  font-family: 'BioRhyme', serif;
-  font-family: 'Luxurious Roman', cursive;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: "BioRhyme", serif;
+  font-family: "Luxurious Roman", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -226,13 +216,11 @@ footer {
   /*************FOLLOW-US-ON************/
   /***********COPYRIGHT-STUFF***************/
 }
-
 footer #first-area {
   background-color: #ffffff;
   text-align: center;
   margin: 0;
 }
-
 footer #first-area h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -247,7 +235,6 @@ footer #first-area h3 {
   padding-top: 8.94%;
   color: #000000;
 }
-
 footer #first-area input::placeholder {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -259,7 +246,6 @@ footer #first-area input::placeholder {
   /* width:100%; */
   /* max-width:117px; */
 }
-
 footer #first-area p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -272,26 +258,22 @@ footer #first-area p {
   padding-right: 6%;
   padding-bottom: 11.18%;
 }
-
 footer #first-area .option-list,
 footer #first-area ul,
 footer #first-area li,
 footer #first-area li a {
   display: none;
 }
-
 footer .col-sm-3 {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
-
 footer .col-sm-3 button {
   display: flex;
   border: none;
   /* position:relative; */
 }
-
 footer .col-sm-3 button .collapsible #may-we-help-you,
 footer .col-sm-3 button .collapsible #company {
   background-color: #f5f5f5;
@@ -310,29 +292,24 @@ footer .col-sm-3 button .collapsible #company {
   letter-spacing: 0.01em;
   margin: 0;
 }
-
 footer .col-sm-3 span {
   padding-right: 6.666%;
   padding-left: 8.8%;
   margin: auto 0;
 }
-
 footer .col-sm-3 svg {
   margin: auto;
   margin-right: 0;
 }
-
 footer .col-sm-3 h3 {
   margin: 0;
   color: #000000;
   padding: 1.2rem 0;
 }
-
 footer .content ul {
   padding: 0;
   margin: 0;
 }
-
 footer .content li {
   padding: 0 18px;
   /* display: none; */
@@ -340,16 +317,13 @@ footer .content li {
   background-color: #f1f1f1;
   list-style: none;
 }
-
 footer .content li a {
   text-decoration: none;
   color: #000;
 }
-
 footer #send-form {
   text-align: left;
 }
-
 footer input {
   border: 0;
   border-bottom: 2px solid #000;
@@ -357,11 +331,9 @@ footer input {
   padding-bottom: 18.05px;
   /* padding-left:6.4%; */
 }
-
 footer form {
   padding-left: 6%;
 }
-
 footer form button {
   margin-top: 8.948%;
   background-color: #9d9d9d;
@@ -379,12 +351,10 @@ footer form button {
   text-align: center;
   margin-bottom: 5.36%;
 }
-
 footer form button .plus {
   justify-content: right;
   margin-left: auto;
 }
-
 footer #form-area p {
   padding-bottom: 13.33333%;
   margin-bottom: 0;
@@ -397,25 +367,21 @@ footer #form-area p {
   text-align: left;
   margin-top: 0;
 }
-
 footer #form-and-send {
   text-align: left;
 }
-
 footer #follow-icons {
   margin: 0;
 }
-
 footer #follow-us-on {
   background-color: #ffffff;
   text-align: center;
   /* padding-bottom:10%;
-            padding-top:2%; */
+          padding-top:2%; */
   padding-left: 0;
   padding-right: 0;
   justify-content: center;
 }
-
 footer #follow-us-on h3 {
   font-family: "Roboto";
   font-style: normal;
@@ -427,7 +393,6 @@ footer #follow-us-on h3 {
   margin: 0;
   color: #000000;
 }
-
 footer #follow-us-on ul {
   display: flex;
   flex-direction: row;
@@ -436,31 +401,25 @@ footer #follow-us-on ul {
   padding-bottom: 91px;
   margin: 0;
 }
-
 footer #copyright-stuff {
   background-color: #000000;
   padding-left: 0;
   justify-content: center;
 }
-
 footer #copyright-stuff ul {
   margin: 0;
   padding: 0;
 }
-
 footer #copyright-stuff ul #copyright {
   text-align: center;
 }
-
 footer #copyright-stuff ul li {
   list-style: none;
 }
-
 footer #copyright-stuff ul a {
   color: #f5f5f5;
   text-decoration: none;
 }
-
 footer #copyright-stuff #copyright {
   font-family: "Roboto";
   font-style: normal;
@@ -469,7 +428,6 @@ footer #copyright-stuff #copyright {
   line-height: 140%;
   padding-top: 32px;
 }
-
 footer #copyright-stuff #legal-elements {
   text-align: center;
   display: flex;
@@ -526,7 +484,6 @@ footer #copyright-stuff #legal-elements {
     padding: 0;
   }
 }
-
 @media (min-width: 1023px) {
   footer {
     /***********FIRST-AREA-LG************************/
@@ -593,3 +550,5 @@ footer #copyright-stuff #legal-elements {
     margin-bottom: 0;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

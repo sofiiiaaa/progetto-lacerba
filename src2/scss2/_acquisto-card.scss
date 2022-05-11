@@ -1,0 +1,16 @@
+.image-to-pay{
+    img{
+        position:relative;
+    }
+
+    button{
+        &.favorite{
+            position:absolute;
+            top:5px;
+        }
+        &.turn-back{
+            position:absolute;
+            top:6px;
+        }
+    }
+}

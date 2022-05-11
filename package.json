@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
       "sass-dev": "sass --watch src/scss:assest/css",
-      "sass-prod": "sass --no-source-map --style=compressed src/scss:assest/css"
+      "sass-prod": "sass --no-source-map --style=compressed src/scss:assest/css",
+
+       "sass-dev-second": "sass --watch src2/scss2:assest2/css2",
+       "sass-prod-second": "sass --no-source-map --style=compressed src2/scss2:assest2/css2"
+      
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.51.0"
-  }
+  }  
 }
+
+
+
