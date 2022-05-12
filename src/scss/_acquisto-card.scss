@@ -9,28 +9,24 @@
                     width: 100%;
                 }
         
-                button {
-                    @include buttons-style;
-                    &.favorite {
+                button.favorite {
+                    @include buttons-style;                   
+                    position: absolute;
+                    top: 4.8%;                    
+                    right: 6.933333%;
+        
+                    svg {
+                        height: 20px;
+                        width:20px;
+                    }                     
+                   
+                }
+                
+                 a.turn-back {
                         position: absolute;
                         top: 4.8%;
-                        ;
-                        right: 6.933333%;
-        
-                        svg {
-                            height: 20px;
-                            width:20px;
-                        }
+                        left: 6.933333%;        
                     }
-        
-                    &.turn-back {
-                        position: absolute;
-                        top: 4.8%;
-                        left: 6.933333%;
-
-        
-                    }
-                }        
             }
 
             #text-to-pay {
@@ -98,9 +94,8 @@
         background-color: #E5E5E5;
     }
 
-    button{
-        &.favorite,
-        &.turn-back{
+    button.favorite,
+        a.turn-back{
             @include not-showed;
         }
     }
@@ -136,5 +131,4 @@
     }
 
 
-}
 }
