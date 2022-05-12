@@ -307,6 +307,9 @@ nav {
     grid-template-columns: 1fr 1fr;
     background-color: #E5E5E5;
   }
+  .card-product-to-shop button.favorite, .card-product-to-shop button.turn-back {
+    display: none;
+  }
   .card-product-to-shop .add-to {
     display: grid;
     grid-template-columns: 70% 30%;
