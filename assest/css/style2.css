@@ -185,10 +185,10 @@ nav {
 /*************ACQUISTO-CARD**********/
 .card-product-to-shop {
   background-color: #E5E5E5;
+  position: relative;
 }
 
 .card-product-to-shop #image-to-pay {
-  position: relative;
   display: flex;
   overflow-x: scroll;
 }
