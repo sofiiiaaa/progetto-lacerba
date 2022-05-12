@@ -116,7 +116,7 @@ nav {
 }
 
 /***********MEDIA*****************************/
-@media (max-width: 1023px) {
+@media (min-width: 319px) {
   .sr-card-img {
     flex-basis: auto;
     height: 100vh;
@@ -133,6 +133,21 @@ nav {
 
   #screen-md {
     display: block;
+  }
+}
+@media (min-width: 767px) {
+  #home,
+#listato {
+    display: block;
+  }
+
+  ul.visual-icon {
+    display: none;
+  }
+
+  #written-icon a {
+    text-decoration: none;
+    color: #000000;
   }
 }
 /*************TITLE********************/
