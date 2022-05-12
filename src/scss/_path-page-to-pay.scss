@@ -1,0 +1,19 @@
+#path-page{
+    display:flex;
+    p {
+         @include font($lg-size, 12px, 200%);
+        letter-spacing: 0.05em;
+
+        a{
+            text-decoration: none;
+            color:$main-color;
+        }
+        }
+
+        a.turn-back{
+            margin: auto 0;
+            margin-left:2.599375%;
+            margin-right:1.1875%;
+        }
+    
+}

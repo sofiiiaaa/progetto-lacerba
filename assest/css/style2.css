@@ -155,31 +155,29 @@ nav {
   }
 }
 
-/*************TITLE********************/
-#title {
-  background-color: #FFFFFF;
+/***********PATH TO PAGE************************/
+#path-page {
+  display: flex;
 }
 
-#title h1 {
+#path-page p {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 120%;
-  padding-top: 24px;
-  padding-right: auto;
-  padding-bottom: 24px;
-  padding-left: 6.4%;
-  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.05em;
 }
 
-@media (min-width: 767px) {
-  #title {
-    height: 6.75rem;
-  }
-  #title h1 {
-    text-align: center;
-  }
+#path-page p a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#path-page a.turn-back {
+  margin: auto 0;
+  margin-left: 2.599375%;
+  margin-right: 1.1875%;
 }
 
 /*************ACQUISTO-CARD**********/
