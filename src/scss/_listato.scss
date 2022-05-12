@@ -6,7 +6,7 @@
 
     
     #item-17, #item-18{
-        display:none;
+        @include not-showed;
     }
     
     .image{
