@@ -59,7 +59,7 @@ function justImg (event) {
 
 const discountMessage = document.querySelector(".close-discount-message");
 const sectionOfDiscountMessage= document.querySelector("#discount-message");
-// console.log(discountMessage);
+console.log(discountMessage);
 // console.log(sectionOfDiscountMessage);
 
 discountMessage.addEventListener("click", destroyDiscountMessage);
