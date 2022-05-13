@@ -147,13 +147,13 @@ btnCompleteViewListato.addEventListener("click", moreOpacityFirstIcon);
 btnJustImagViewListato.addEventListener("click", moreOpacitySecondIcon);
 
 function moreOpacityFirstIcon(){
-  btnCompleteViewListato.style.opacity = "0.6";
-    btnJustImagViewListato.style.opacity = "1";
+  btnCompleteViewListato.style.opacity = "1";
+    btnJustImagViewListato.style.opacity = "0.6";
 }
 
 function moreOpacitySecondIcon(){
-  btnJustImagViewListato.style.opacity = ".6";
-    btnCompleteViewListato.style.opacity = "1";
+  btnJustImagViewListato.style.opacity = "1";
+    btnCompleteViewListato.style.opacity = "0.6";
 
   
 }
