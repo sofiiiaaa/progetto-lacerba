@@ -22,7 +22,7 @@ for (i = 0; i < coll.length; i++) {
 const imgAndDescriptionBtn = document.querySelector(".img-and-description-btn");
 const justImgButton = document.querySelector(".just-img-btn");
 const listato = document.querySelector(".listato");
-console.log(listato);
+// console.log(listato);
 // const imageListato= document.querySelector(".descriptive-img");
 // console.log(imageListato);
 
@@ -33,7 +33,7 @@ justImgButton.addEventListener("click", justImg);
 function imgAndDescription (event){
 
   // console.log("hii");
-  console.log(event);
+  // console.log(event);
   // console.log(listato.classList);
   listato.classList.remove("listato--just-img");  
   // console.log(listato.classList);
@@ -46,7 +46,7 @@ function imgAndDescription (event){
 
 
 function justImg (event) {
-  console.log(event);
+  // console.log(event);
   // console.log(listato.classList);
   listato.classList.add("listato--just-img");
   // console.log(listato.classList);
@@ -59,18 +59,77 @@ function justImg (event) {
 
 const discountMessage = document.querySelector(".close-discount-message");
 const sectionOfDiscountMessage= document.querySelector("#discount-message");
-console.log(discountMessage);
+// console.log(discountMessage);
 // console.log(sectionOfDiscountMessage);
 
 discountMessage.addEventListener("click", destroyDiscountMessage);
 // console.log("hiii");
 
 function destroyDiscountMessage (event){
-  console.log(event);
+  // console.log(event);
   sectionOfDiscountMessage.remove();
 
 
 }
 
 /************************* ADD FAVORITE*************************** */
+const btnToAddToWishlist = document.querySelectorAll(".add-to-wishlist");
+// console.log(btnToAddToWishlist);
+const btnToRemoveFromWishlist = document.querySelectorAll(".remove-from-wishlist");
+// console.log(btnToRemoveToWishlist);
+const wishlist = []
 
+btnToAddToWishlist.forEach(element =>{
+  element.addEventListener("click", functionAddToWishlist)
+});
+
+btnToRemoveFromWishlist.forEach(element =>{
+  element.addEventListener("click", funtionRemoveFromWishlist);
+});
+console.log("hiii")
+
+function functionAddToWishlist (event){
+  console.log(event);
+  const productIdToAdd = event.target.dataset.id;
+  console.log(productIdToAdd);
+  wishlist.push(productIdToAdd);
+  console.log(wishlist);
+
+  localStorage.setItem("wishlist", JSON.stringify(wishlist));  //inserisce come chiave wishlist e come valore tutti gli elementi di wishlist nella modalità di stringa; l'unica che il localStorage legge.
+
+    updateWishlist();
+
+}
+
+function funtionRemoveFromWishlist (event){
+
+  const productIdToRemove =  event.target.dataset.id;
+  // console.log(productIdToRemove)
+   const idtToDeleteFromWishlist = wishlist.findIndex(element => element.productIdToRemove);
+   wishlist.splice(idtToDeleteFromWishlist,1);
+   localStorage.setItem("wishlist", JSON.stringify(wishlist));
+   updateWishlist();
+
+}
+
+function updateWishlist () {
+  btnToRemoveFromWishlist.forEach((element) =>{
+    if (wishlist.includes(element.dataset.id)){
+    element.removeAttribute("hidden");
+    element.previousElementSibling.setAttribute("hidden","hidden");
+   } else{
+     element.setAttribute("hidden", "hidden");
+     element.previousElementSibling.removeAttribute("hidden");
+   }
+  }) 
+}
+
+function StartWishlistOperations (){
+  const localStorageWishlist = JSON.parse(localStorage.getItem("wishlist"));
+   if(localStorageWishlist){
+     wishlist.push(...localStorageWishlist);
+   }
+   updateWishlist()
+}
+
+StartWishlistOperations();

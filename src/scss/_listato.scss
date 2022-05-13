@@ -22,15 +22,23 @@
         border: none;       
         background-color: transparent;
         border:transparent ;
-                &.favorite {
-                    position: absolute;
-                    top:4.8128%;
-                    right:8%;
-                    // right:5.5240%;
-                    width: 12px;
+        &.add-to-wishlist,
+        &.remove-from-wishlist {
+            position: absolute;
+            top:4.8128%;
+            right:8%;
+            // right:5.5240%;
+            width: 12px;
+            svg {
+                pointer-events: none;
+                &.svg-remove-favorite{
+                    background-color: red;
                 }
-    }
-
+                }
+            }
+            }
+               
+            
     span{
         &.new{
                 position: absolute;

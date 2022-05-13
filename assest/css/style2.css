@@ -69,6 +69,7 @@ button svg {
 #discount-message button svg {
   width: 25px;
   color: #fff;
+  pointer-events: none;
 }
 
 /*****************HEADER*****************************/

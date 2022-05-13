@@ -68,6 +68,7 @@ button svg {
 #discount-message button svg {
   width: 25px;
   color: #fff;
+  pointer-events: none;
 }
 
 /*****************HEADER*****************************/
@@ -186,7 +187,7 @@ nav {
   background-color: #F5F5F5;
 }
 
-h3 {
+#n-results h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -280,11 +281,19 @@ h3 {
   border: transparent;
 }
 
-.listato button.favorite {
+.listato button.add-to-wishlist, .listato button.remove-from-wishlist {
   position: absolute;
   top: 4.8128%;
   right: 8%;
   width: 12px;
+}
+
+.listato button.add-to-wishlist svg, .listato button.remove-from-wishlist svg {
+  pointer-events: none;
+}
+
+.listato button.add-to-wishlist svg.svg-remove-favorite, .listato button.remove-from-wishlist svg.svg-remove-favorite {
+  background-color: red;
 }
 
 .listato span.new {
