@@ -21,9 +21,9 @@
         <span>
             Sing up to our newsletter and get 10% discount
         </span>
-        <button>
-            <span class="screen-reader-only">chiudi</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+        <button class="close-discount-message" aria-label="close discount message">
+            <span class="screen-reader-only">close discount message</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 svg-close-discount-message" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -34,7 +34,7 @@
         <nav>
             <ul class="visual-icon">
                 <li id="first-icon">
-                    <a href="index.html">
+                    <a href="index.html" aria-label="go to home">
                         <span class="screen-reader-only">Go to home</span>
                         <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -43,7 +43,7 @@
                         </svg>
                     </a>
                 </li>
-                <li id="second-icon">
+                <li id="second-icon" aria-label="go to list of products">
                     <a href="listato.html">
                         <span class="screen-reader-only">Go to list</span>
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +86,7 @@
     <!--images-->
     <div class="card-product-to-shop"> 
         <div id="image-to-pay">
-        <button class="favorite">
+        <button class="favorite" aria-label="add to favorite">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -119,7 +119,7 @@
     <div class="add-to">
     <div class="add-to-cart">
         <p>Add to cart</p>
-    <button class="add-to-shop-btn">
+    <button class="add-to-shop-btn" aria-label=" add to cart">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -128,7 +128,7 @@
             </svg>
     </button>
     </div>
-    <div class="favorite-to-shop">
+    <div class="favorite-to-shop" aria-label="add to favorite">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -143,7 +143,7 @@
 <!-------accordion card with information of the product to shop-------->
 
 <div class="listato-info-to-shop">
-    <button type="button" class="collapsible" id="Description">
+    <button type="button" class="collapsible" id="Description" aria-label="go to the description of the product">
         <h3>Description</h3>
         <!-- <div class="plus"> -->
         <span>
@@ -164,7 +164,7 @@
     </div>
 
 
-    <button type="button" class="collapsible" id="Details">
+    <button type="button" class="collapsible" id="Details" aria-label="go to the details of the product">
         <h3>Details</h3>
          <!-- <div class="plus"> -->
         <span>
@@ -183,7 +183,7 @@
     </div>
 
 
-    <button type="button" class="collapsible" id="Tech Specs">
+    <button type="button" class="collapsible" id="Tech Specs" aria-label="go to the tech specs of the product">
         <h3>Tech Specs</h3>
          <!-- <div class="plus"> -->
         <span>
@@ -202,7 +202,7 @@
     </div>
 
 
-    <button type="button" class="collapsible" id="Care Information">
+    <button type="button" class="collapsible" id="Care Information" aria-label="go to the care information of the product">
         <h3>Care Information</h3>
          <!-- <div class="plus"> -->
         <span>
@@ -432,7 +432,7 @@
                 <h3>FOLLOW US ON </h3>
                 <ul class="col-md-5">
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to our instagram">
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
                                 <path
@@ -442,7 +442,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to our twitter">
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 20 18" fill="none">
                                 <path
@@ -452,7 +452,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to our boh">
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
                                 <path
@@ -462,7 +462,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to our youtube">
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 20 16" fill="none">
                                 <path
@@ -472,7 +472,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to our facebook">
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none">
                                 <path
