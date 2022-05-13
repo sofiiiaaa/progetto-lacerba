@@ -133,3 +133,27 @@ function StartWishlistOperations (){
 }
 
 StartWishlistOperations();
+
+/***************CAMBIA OPACITà DEI BOTTONI PER VISUALIZZAZIONE LISTATO**********************/
+// class="svg-go-to-just-img-products"
+// class="svg-go-to-complete-list-products"
+
+const btnCompleteViewListato = document.querySelector(".img-and-description-btn");
+console.log(btnCompleteViewListato);
+const btnJustImagViewListato = document.querySelector(".just-img-btn");
+console.log(btnJustImagViewListato);
+
+btnCompleteViewListato.addEventListener("click", moreOpacityFirstIcon);
+btnJustImagViewListato.addEventListener("click", moreOpacitySecondIcon);
+
+function moreOpacityFirstIcon(){
+  btnCompleteViewListato.style.opacity = "0.6";
+    btnJustImagViewListato.style.opacity = "1";
+}
+
+function moreOpacitySecondIcon(){
+  btnJustImagViewListato.style.opacity = ".6";
+    btnCompleteViewListato.style.opacity = "1";
+
+  
+}
