@@ -4,9 +4,6 @@
 /***********MIXIN************/
 @import "../../src/scss/mixin";
 
-/*********TYPOGRAPHY****************/
-
-
 /*********Generals***********/
 @import "../../src/scss/generals";
 
@@ -14,23 +11,19 @@
 @import "../../src/scss/discount-message";
 
 /*****************HEADER*****************************/
- @import "../../src/scss/header";
+@import "../../src/scss/header";
 
-/*************TITLE********************/
-@import "../../src/scss/title";
+/*******************CARD HOME*****************/
+@import "../../src/scss/card-home";
 
-/************N-RESULTS***************/
-@import "../../src/scss/n-results";
-
-/*********LISTATO***************/
-@import "../../src/scss/listato";
+/***************CARD BODY**************/
+@import "../../src/scss/card-body";
 
 /***********MENU-SERVICE***************/
 @import "../../src/scss/menu-service";
 
- /*****************************FOOTER***********************************************************/ 
+/*****************************FOOTER***********************************************************/
 @import "../../src/scss/footer";
 
 /***********MODAL SEND******************/
 @import "../../src/scss/modal-send";
- 

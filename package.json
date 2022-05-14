@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass-dev": "sass --watch src/scss:assest/css",
-    "sass-prod": "sass --no-source-map --style=compressed src/scss:assest/css",
-    "sass-dev-second": "sass --watch src/scss:assest2/css2",
-    "sass-prod-second": "sass --no-source-map --style=compressed src/scss:assest2/css2"
+    "sass-prod": "sass --no-source-map --style=compressed src/scss:assest/css"
+
   },
   "keywords": [],
   "author": "",
