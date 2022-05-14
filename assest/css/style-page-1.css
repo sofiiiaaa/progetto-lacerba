@@ -827,15 +827,25 @@ footer #copyright-stuff #legal-elements {
   justify-content: center;
 }
 
-#modal-wrapper {
+.modal-wrapper {
   background-color: white;
   border-radius: 20px;
   padding: 20px;
   text-align: center;
 }
 
-#modal-1-content {
+.modal-1-title {
+  margin: 0 20px 0 10px;
+}
+
+.modal-1-content {
   background-color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.x-button {
+  margin-right: 10px;
 }
 
 header {

@@ -29,7 +29,7 @@ const listato = document.querySelector(".listato");
 imgAndDescriptionBtn.addEventListener("click", imgAndDescription);
 justImgButton.addEventListener("click", justImg);
 
-// console.log(imgAndDescriptionBtn);
+console.log(imgAndDescriptionBtn);
 function imgAndDescription (event){
 
   // console.log("hii");
@@ -55,7 +55,7 @@ function justImg (event) {
   justImgButton.classList.add("active");
 }
 
-/**************REMOVE DISCOUNT MESSAGE*************************/
+// /**************REMOVE DISCOUNT MESSAGE*************************/
 
 const discountMessage = document.querySelector(".close-discount-message");
 const sectionOfDiscountMessage= document.querySelector("#discount-message");
@@ -72,7 +72,7 @@ function destroyDiscountMessage (event){
 
 }
 
-/************************* ADD FAVORITE*************************** */
+// /************************* ADD FAVORITE*************************** */
 const btnToAddToWishlist = document.querySelectorAll(".add-to-wishlist");
 // console.log(btnToAddToWishlist);
 const btnToRemoveFromWishlist = document.querySelectorAll(".remove-from-wishlist");
