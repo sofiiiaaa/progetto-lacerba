@@ -890,3 +890,47 @@ footer #copyright-stuff #legal-elements {
     margin-bottom: 0;
   }
 }
+
+/***********MODAL SEND******************/
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+}
+
+.modal-backdrop {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal-wrapper {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#modal-1-content {
+  background-color: white;
+}
+
+header {
+  display: flex;
+}
+
+.newsletterContainer p {
+  display: none;
+}
+
+.newsletterContainer.subscribed p {
+  display: block;
+}

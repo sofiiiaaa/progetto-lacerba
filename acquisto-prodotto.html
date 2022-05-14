@@ -8,6 +8,7 @@
     <title>ProgettoSR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;700;800&family=Luxurious+Roman&family=Open+Sans:wght@300&family=Roboto:wght@500;700&display=swap"
         rel="stylesheet">
@@ -299,11 +300,11 @@
         <div class="row" id="first-area">
             <div class="col-md-6" id="form-area">
                 <h3>Keep you informed about news, trends, and special offers.</h3> <br>
-                <form id="form-and-send">
+                <form id="form-and-send" class="newsletterContainer">
                     <input type="email" placeholder="Insert your email and get -5% discount"
-                        aria-label="Insert your email and get -5% discount"> <br>
+                        aria-label="Insert your email and get -5% discount"> <br>                        
                     <!-- <div id="send-form"> -->
-                    <button id="send">send
+                    <button type="button" id="send" data-micromodal-trigger="modal-1" >send
                         <?xml version="1.0" encoding="UTF-8"?>
                         <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -311,6 +312,7 @@
                                 fill="white"></path>
                         </svg>
                     </button>
+                    <p> thank you for your message </p>
                     <!-- </div> -->
                 </form>
                 <p>I am over 16 years and subscribe to the Rosenthal newsletter concerning porcelain, table, kitchen
@@ -500,6 +502,64 @@
             </ul>
         </div>
     </footer>
+
+<!--modals!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <!-- [1] -->
+    <div id="modal-1" class="modal" aria-hidden="true">
+    
+        <!-- [2] -->
+        <div tabindex="-1" data-micromodal-close class="modal-backdrop">
+    
+            <!-- [3] -->
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title" class="modal-wrapper">
+    
+    
+                <header>
+                    <h2 id="modal-1-title">
+                        Modal Title
+                    </h2>
+    
+                    <!-- [4] -->
+                    <button aria-label="Close modal" data-micromodal-close> X </button>
+                </header>
+    
+                <div id="modal-1-content">
+                    Modal Content
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+
+
+<!--carosello--><!--p.s. tu invece usa scollbar. bisogna farlo rientrare nella media query del mobile, per non averla nel desktop. per scorrere usa transform:translate(,). togli il display felx per schermo piccolo e scroll. fai un mediaquery per dire che questo non vale per gli schermi da md  in su-->
+    <!-- <div class="product-area"></div>
+    <div class="product-image-mobile"></div> -->
+    <!-- Slider main container -->
+    <!-- <div class="swiper"> -->
+        <!-- Additional required wrapper -->
+        <!-- <div class="swiper-wrapper">-->
+            <!-- Slides -->
+            <!--<div class="swiper-slide">Slide 1</div> immagini dentro div al posto di slide-->
+            <!-- <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>  -->
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div>
+         -->
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div>
+    </div> -->
+
+
+
+
+
+    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>-->
+    <script src="node_modules/micromodal/dist/micromodal.min.js"></script>
     <script src="app.js"></script>
     </body>
     

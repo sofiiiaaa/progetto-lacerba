@@ -157,3 +157,17 @@ function moreOpacitySecondIcon(){
 
   
 }
+
+/****************PER MODALE**************************/
+
+document.addEventListener("DOMContentLoaded", function(){
+  MicroModal.init({
+    onClose:() => {
+      const newsletterContainerClosed = document.querySelector(".newsletterContainer");
+      console.log(newsletterContainerClosed);
+      newsletterContainerClosed.classList.add("subscribed");
+      console.log(newsletterContainerClosed);
+
+    }
+  });
+});

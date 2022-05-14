@@ -1132,11 +1132,11 @@
             <div class="row" id="first-area">
                 <div class="col-md-6" id="form-area">
                     <h3>Keep you informed about news, trends, and special offers.</h3> <br>
-                    <form id="form-and-send">
+                    <form id="form-and-send" class="newsletterContainer">
                         <input type="email" placeholder="Insert your email and get -5% discount"
                             aria-label="Insert your email and get -5% discount"> <br>
                         <!-- <div id="send-form"> -->
-                        <button id="send">send
+                        <button type="button" id="send" data-micromodal-trigger="modal-1">send
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18"
                                 fill="none">
@@ -1336,6 +1336,39 @@
             </ul>
         </div>
     </footer>
+
+
+    <!--modals!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    
+    <!-- [1] -->
+    <div id="modal-1" class="modal" aria-hidden="true">
+    
+        <!-- [2] -->
+        <div tabindex="-1" data-micromodal-close class="modal-backdrop">
+    
+            <!-- [3] -->
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title" class="modal-wrapper">
+    
+    
+                <header>
+                    <h2 id="modal-1-title">
+                        Modal Title
+                    </h2>
+    
+                    <!-- [4] -->
+                    <button aria-label="Close modal" data-micromodal-close> X </button>
+                </header>
+    
+                <div id="modal-1-content">
+                    Modal Content
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/micromodal/dist/micromodal.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
