@@ -32,7 +32,7 @@ button svg {
   display: none;
 }
 
-#discount-message {
+.discount-message {
   display: flex;
   width: 100%;
   height: 32px;
@@ -44,7 +44,7 @@ button svg {
   position: relative;
 }
 
-#discount-message span {
+.discount-message span {
   color: #FFFFFF;
   font-family: 'Roboto';
   font-style: normal;
@@ -54,7 +54,7 @@ button svg {
   letter-spacing: 0.1em;
 }
 
-#discount-message button {
+.discount-message button {
   position: absolute;
   top: 50%;
   transform: translateY(-45%);
@@ -64,7 +64,7 @@ button svg {
   right: 2.36625%;
 }
 
-#discount-message button svg {
+.discount-message button svg {
   width: 25px;
   color: #fff;
   pointer-events: none;
