@@ -204,11 +204,11 @@ footer {
 #follow-us-on {
     background-color: #ffffff;
     text-align: center;
-    /* padding-bottom:10%;
-            padding-top:2%; */
     padding-left: 0;
     padding-right: 0;
     justify-content: center;
+    padding-top:1.5rem;
+    // padding-bottom:0.688rem
 
     h3 {
             font-family: "Roboto";
@@ -228,7 +228,9 @@ footer {
             justify-content: space-around;
             list-style: none;
             padding-bottom: 91px;
+            padding-left:0;
             margin: 0;
+            margin-top: 0.688rem;
      }    
 }
 
@@ -382,6 +384,7 @@ footer {
               gap:30px;
               padding-left:28px;
               margin-bottom:48px;
+              margin-top:0;
             }
             }
     }
