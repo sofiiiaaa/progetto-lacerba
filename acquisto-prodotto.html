@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" initial-scale=1,  minimum-scale=1, maximum-scale=1>
     <title>ProgettoSR</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;700;800&family=Luxurious+Roman&family=Open+Sans:wght@300&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;700;800&family=Luxurious+Roman&family=Open+Sans:wght@300&family=Roboto:wght@500;700&display=swap"
+    rel="stylesheet">
+    <!-- <link href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
     <link rel="stylesheet" href="assest/css/style-page-3.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 
 </head>
 
@@ -84,9 +86,33 @@
         </div>
 
 
-    <!--images-->
-    <div class="card-product-to-shop"> 
-        <div id="image-to-pay">
+        <!--images from md screens -->
+        <div class="card-product-to-shop"> 
+
+    <!--CAROSELLO-->
+        <div class="carousel-product-to-shop">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/secondo tentativo/fragola-quadrata-finale-webp-img.webp" alt="prima immagine fragola" class="first-img-carousel" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/seconda-fragola-quadrata-ottimizzata.webp" alt=" seconda immagine fragola" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/terza-fragola-quadrata-ottimizzata.webp" alt=" terza immagine fragola"/>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/quarta-immagine-quadrata-compra.webp" alt="quarta immagine fragola" />
+            </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    </div>
+
+        <div class="image-to-pay">
         <button class="favorite" aria-label="add to favorite">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -558,7 +584,9 @@
 
 
 
-    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>-->
+    <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="node_modules/micromodal/dist/micromodal.min.js"></script>
     <script src="app.js"></script>
     </body>

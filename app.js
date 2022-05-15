@@ -26,8 +26,11 @@ const listato = document.querySelector(".listato");
 // const imageListato= document.querySelector(".descriptive-img");
 // console.log(imageListato);
 
-imgAndDescriptionBtn.addEventListener("click", imgAndDescription);
-justImgButton.addEventListener("click", justImg);
+if (imgAndDescriptionBtn !== null){
+
+  imgAndDescriptionBtn.addEventListener("click", imgAndDescription);
+  justImgButton.addEventListener("click", justImg);
+}
 
 console.log(imgAndDescriptionBtn);
 function imgAndDescription (event){
@@ -143,8 +146,12 @@ console.log(btnCompleteViewListato);
 const btnJustImagViewListato = document.querySelector(".just-img-btn");
 console.log(btnJustImagViewListato);
 
-btnCompleteViewListato.addEventListener("click", moreOpacityFirstIcon);
-btnJustImagViewListato.addEventListener("click", moreOpacitySecondIcon);
+if (btnCompleteViewListato !== null){
+
+  btnCompleteViewListato.addEventListener("click", moreOpacityFirstIcon);
+  btnJustImagViewListato.addEventListener("click", moreOpacitySecondIcon);
+}
+
 
 function moreOpacityFirstIcon(){
   btnCompleteViewListato.style.opacity = "1";
@@ -171,3 +178,39 @@ document.addEventListener("DOMContentLoaded", function(){
     }
   });
 });
+
+/**************CAROUSEL PRODUCT  TO SHOP****************/
+
+console.log("hii");
+// try{
+
+  var swiper = new Swiper(".mySwiper", {  
+    //  direction: 'horizontal',
+      // loop: true,
+    slidesPerView: 1,
+    centeredSlides: false,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+          },
+          breakpoints: {
+            768: {
+          //     slidesPerView: 2,
+          //     slidesPerGroup: 2,
+          // autoplayDisableOnInteraction: false,
+            },
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+        console.log(swiper)
+
+// catch{
+//   console.log("swipter wrong page")
+// }

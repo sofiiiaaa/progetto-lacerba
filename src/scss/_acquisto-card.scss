@@ -1,33 +1,35 @@
 .card-product-to-shop{
-    background-color: #E5E5E5;
-    position: relative;
-        #image-to-pay {
-                display: flex;
-                overflow-x: scroll;
+    // background-color: #E5E5E5;
+    // position: relative;
+        .image-to-pay {
+            display: none;
+    //             display: flex;
+    //             overflow-x: scroll;
         
-                img {
-                    width: 100%;
-                }
+    //             img {
+    //                 width: 100%;
+    //             }
         
-                button.favorite {
-                    @include buttons-style;                   
-                    position: absolute;
-                    top: 4.8%;                    
-                    right: 6.933333%;                  
+    //             button.favorite {
+    //                 @include buttons-style;                   
+    //                 position: absolute;
+    //                 top: 4.8%;                    
+    //                 right: 6.933333%;                  
         
-                    svg {
-                        height: 20px;
-                        width:20px;
-                    }                     
+    //                 svg {
+    //                     height: 20px;
+    //                     width:20px;
+    //                 }                     
                    
-                }
+    //             }
                 
-                 a.turn-back {
-                        position: absolute;
-                        top: 4.8%;
-                        left: 6.933333%;        
-                    }
-            }
+    //              a.turn-back {
+    //                     position: absolute;
+    //                     top: 4.8%;
+    //                     left: 6.933333%;        
+    //                 }          
+        
+            }                
 
             #text-to-pay {
                     margin-left: 6.382978%;   
@@ -84,14 +86,20 @@
 
 }
 
-@media (min-width:767px){
+@media (min-width:769px){   
+
 .card-product-to-shop{
     display: grid;
         grid-template-columns: 66% 34%;
-    #image-to-pay{
+    .image-to-pay{
+        display:block;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #E5E5E5;
+
+        img {
+             width: 100%;
+        }
     }
 
     button.favorite,
