@@ -182,7 +182,6 @@ document.addEventListener("DOMContentLoaded", function(){
 /**************CAROUSEL PRODUCT  TO SHOP****************/
 
 console.log("hii");
-// try{
 
   var swiper = new Swiper(".mySwiper", {  
     //  direction: 'horizontal',
@@ -194,13 +193,13 @@ console.log("hii");
     keyboard: {
       enabled: true,
           },
-          breakpoints: {
-            768: {
-          //     slidesPerView: 2,
-          //     slidesPerGroup: 2,
-          // autoplayDisableOnInteraction: false,
-            },
-          },
+          // breakpoints: {
+          //   768: {
+          // //     slidesPerView: 2,
+          // //     slidesPerGroup: 2,
+          // // autoplayDisableOnInteraction: false,
+          //   },
+          // },
           scrollbar: {
             el: ".swiper-scrollbar",
           },
@@ -211,6 +210,3 @@ console.log("hii");
         });
         console.log(swiper)
 
-// catch{
-//   console.log("swipter wrong page")
-// }
