@@ -23,6 +23,8 @@
                 font-size: 12px;
                 line-height: 14px;
                 letter-spacing: 0.04em;
+                margin-top:1.625rem;
+                margin-bottom:0.5rem;
             }
 
          h1 {
@@ -34,7 +36,9 @@
             font-weight: 700;
             font-size: 40px;
             line-height: 120%;
-            margin-bottom: 64px;
+            // margin-bottom: 64px;
+            margin-top:0;
+            margin-bottom:0.5rem;
         }
 
          a {
@@ -51,6 +55,7 @@
             letter-spacing: 0.05em;
             font-size: 14px;
             letter-spacing: 0.05em;
+
         }
 
         #big-screen-paragraph {
@@ -116,12 +121,13 @@
                 justify-content: center;
 
                 h1 {
-                        margin-top: 3.21%;
-                        margin-bottom: 64px;
+                        
+                        margin-bottom: 4rem;
                     }
 
                     #tag {
-                        margin: 0;
+                        margin-top: 2.5rem;
+                        margin-bottom:0.625rem;
                     }
 
                     #big-screen-paragraph {
@@ -134,8 +140,13 @@
                         letter-spacing: 0.01em;
                         color: #000000;
                         margin-top: 0;
-                        margin-bottom: 41px;
+                        margin-bottom: 2.563rem;
 
+                    }
+
+                    a#discover-card-home{
+                        margin-top:0;
+                        margin-bottom:2.5rem;
                     }
 
 

@@ -185,6 +185,8 @@ nav {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
+  margin-top: 1.625rem;
+  margin-bottom: 0.5rem;
 }
 
 .sr-card-home .sr-card-text h1 {
@@ -196,7 +198,8 @@ nav {
   font-weight: 700;
   font-size: 40px;
   line-height: 120%;
-  margin-bottom: 64px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .sr-card-home .sr-card-text a {
@@ -264,11 +267,11 @@ nav {
     justify-content: center;
   }
   .sr-card-home .sr-card-text h1 {
-    margin-top: 3.21%;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
   }
   .sr-card-home .sr-card-text #tag {
-    margin: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 0.625rem;
   }
   .sr-card-home .sr-card-text #big-screen-paragraph {
     display: block;
@@ -280,7 +283,11 @@ nav {
     letter-spacing: 0.01em;
     color: #000000;
     margin-top: 0;
-    margin-bottom: 41px;
+    margin-bottom: 2.563rem;
+  }
+  .sr-card-home .sr-card-text a#discover-card-home {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
   }
   @supports (backdrop-filter: blur(20px)) {
     .sr-card-home .sr-card-text {
@@ -316,7 +323,6 @@ nav {
   color: #000000;
   letter-spacing: 0.01em;
   margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
 }
 
 .sr-card-body .sr-card-text a {
@@ -330,6 +336,10 @@ nav {
   font-size: 14px;
   line-height: 16px;
   width: 100vh;
+}
+
+.sr-card-body .sr-card-text a#discover-card-home {
+  margin-top: 0.5rem;
 }
 
 .sr-card-body h2 {
