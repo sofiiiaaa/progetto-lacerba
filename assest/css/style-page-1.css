@@ -86,7 +86,7 @@ header {
   align-items: center;
   justify-content: center;
   border: none;
-  height: 100px;
+  height: 65px;
   /* position:relative;   */
 }
 
@@ -128,10 +128,6 @@ nav {
 
 /***********MEDIA*****************************/
 @media (min-width: 319px) {
-  .sr-card-img {
-    flex-basis: auto;
-    height: 100vh;
-  }
   #home,
   #listato {
     display: none;
@@ -145,6 +141,9 @@ nav {
 }
 
 @media (min-width: 767px) {
+  header {
+    height: 100px;
+  }
   #home,
   #listato {
     display: block;

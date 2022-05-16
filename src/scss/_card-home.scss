@@ -81,12 +81,14 @@
 
     .sr-card-home{
 
-        img#img-md-screen{
-            display:block;
-        }
-
-        img#img-sm-screen{
-            @include not-showed;
+        img{
+            &#img-md-screen{
+                display:block;
+            }
+    
+            &#img-sm-screen{
+                @include not-showed;
+            }
         }
 
         .sr-card-img {
