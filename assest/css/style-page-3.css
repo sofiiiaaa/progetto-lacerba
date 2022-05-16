@@ -515,22 +515,22 @@ footer #first-area {
 }
 
 footer #first-area h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 700;
-  font-style: bold;
   font-size: 24px;
   line-height: 28px;
+  font-style: bold;
   padding-top: 8.94%;
   padding-left: 6%;
   text-align: left;
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 8.94%;
   color: #000000;
 }
 
 footer #first-area input::placeholder {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -542,9 +542,9 @@ footer #first-area input::placeholder {
 }
 
 footer #first-area p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.01rem;
@@ -582,7 +582,7 @@ footer .col-sm-3 button .collapsible #company {
   border: none;
   text-align: left;
   outline: none;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -648,11 +648,12 @@ footer form button {
   background-color: #9d9d9d;
   width: 120px;
   height: 48px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 700;
-  font-style: bold;
   font-size: 14px;
   line-height: 16px;
+  font-style: bold;
   text-align: right;
   color: #ffffff;
   text-transform: uppercase;
@@ -669,7 +670,7 @@ footer form button .plus {
 footer #form-area p {
   padding-bottom: 13.33333%;
   margin-bottom: 0;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -703,13 +704,13 @@ footer #follow-us-on {
 }
 
 footer #follow-us-on h3 {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
   line-height: 16px;
-  align-items: center;
   letter-spacing: 0.1em;
+  align-items: center;
   margin: 0;
   color: #000000;
 }
@@ -750,7 +751,7 @@ footer #copyright-stuff ul a {
 }
 
 footer #copyright-stuff #copyright {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -763,7 +764,7 @@ footer #copyright-stuff #legal-elements {
   display: flex;
   gap: 8px;
   justify-content: center;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 10px;
@@ -837,13 +838,13 @@ footer #copyright-stuff #legal-elements {
   }
   footer #first-area .option-list {
     display: block;
-    font-family: "Roboto";
-    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
+    font-style: bold;
     letter-spacing: 0.01em;
-    padding-bottom: 0;
     text-align: left;
     padding-bottom: 21px;
   }
@@ -862,7 +863,7 @@ footer #copyright-stuff #legal-elements {
     text-align: center;
     margin: 0 auto;
     color: #000000;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
