@@ -2,7 +2,7 @@
     background-color: #E5E5E5;
     // position: relative;
         .image-to-pay {
-            display: none;
+            @include not-showed;
     
             }                
 
@@ -70,7 +70,7 @@
     display: grid;
         grid-template-columns: 66% 34%;
     .image-to-pay{
-        display:block;
+        @include showed;
         display: grid;
         grid-template-columns: 1fr 1fr;
         background-color: #E5E5E5;
@@ -107,7 +107,7 @@
                 }
 
                 .favorite-to-shop {
-               display: block; /*non funziona*/
+               @include showed;
                background-color:$main-color;
                width: 4rem;
                height:4rem;

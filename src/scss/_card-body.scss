@@ -13,11 +13,7 @@
         padding-right: 50px;   
         
         .description {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                font-size: 16px;
-                line-height: 24px;
+                @include font($sm-size,16px,24px);
                 color: #000000;
                 letter-spacing: 0.01em;
                 margin-bottom:1.5rem;
@@ -25,14 +21,7 @@
 
             a {
                 color: #FFFFFF;
-                font-family: 'BioRhyme', serif;
-                font-family: 'Luxurious Roman', cursive;
-                font-family: 'Open Sans', sans-serif;
-                font-family: 'Roboto', sans-serif;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 14px;
-                line-height: 16px;
+                @include font($lg-size,14px,16px);
                 width: 100vh;
 
                 &#discover-card-home{
@@ -44,23 +33,12 @@
 
 
          h2 {
-             font-family: 'BioRhyme', serif;
-             font-family: 'Luxurious Roman', cursive;
-             font-family: 'Open Sans', sans-serif;
-             font-family: 'Roboto', sans-serif;
-             font-weight: 700;
-             font-style: normal;
-             font-size: 32px;
-             line-height: 120%;
+             @include font($lg-size,32px,120%);
              margin: 0;
          }
 
             p.over-title {
-                font-family: 'Roboto', sans-serif;
-                font-weight: 500;
-                font-style: normal;
-                font-size: 12px;
-                line-height: 14px;
+                @include font($md-size,12px,14px);
                 letter-spacing: 0.04em;
                 padding-top: 7.339%;
                 padding-bottom: 0.5rem;
@@ -112,7 +90,7 @@
         /* display:flex;      */
             width: 100%;
             height: auto;
-            display: block;
+            @include showed;
             /* overflow: hidden; */
         }
 

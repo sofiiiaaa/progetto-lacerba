@@ -1,6 +1,9 @@
 @mixin not-showed{
     display: none;
 } 
+@mixin showed{
+    display: block;
+} 
 
 @mixin to-right{
     align-items: auto;

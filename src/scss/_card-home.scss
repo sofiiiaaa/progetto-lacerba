@@ -14,28 +14,14 @@
        margin-bottom: 40px;
 
         #tag {
-                font-family: 'BioRhyme', serif;
-                font-family: 'Luxurious Roman', cursive;
-                font-family: 'Open Sans', sans-serif;
-                font-family: 'Roboto', sans-serif;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 14px;
+                @include font($md-size,12px,14px);
                 letter-spacing: 0.04em;
                 margin-top:1.625rem;
                 margin-bottom:0.5rem;
             }
 
          h1 {
-            font-family: 'BioRhyme', serif;
-            font-family: 'Luxurious Roman', cursive;
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 120%;
+            @include font($lg-size,40px,120%);
             // margin-bottom: 64px;
             margin-top:0;
             margin-bottom:0.5rem;
@@ -43,23 +29,13 @@
 
          a {
             color: #000000;
-            text-decoration: none;
-            font-family: 'BioRhyme', serif;
-            font-family: 'Luxurious Roman', cursive;
-            font-family: 'Open Sans', sans-serif;
-            font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.05em;
-            font-size: 14px;
-            letter-spacing: 0.05em;
+           @include font($lg-size,14px,16px);
+            letter-spacing: 0.05rem;
 
         }
 
         #big-screen-paragraph {
-            display: none;
+            @include not-showed;
         }
     }
 }
@@ -132,11 +108,7 @@
 
                     #big-screen-paragraph {
                         display: block;
-                        font-family: 'Roboto';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 19px;
+                        @include font($sm-size,16px,19px);
                         letter-spacing: 0.01em;
                         color: #000000;
                         margin-top: 0;
