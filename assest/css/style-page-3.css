@@ -461,6 +461,7 @@ nav {
   /*#F5F5F5*/
   overflow-x: scroll;
   overflow-y: hidden;
+  padding-left: 0;
 }
 
 #menu-service li {
