@@ -93,7 +93,7 @@ header {
 }
 
 header h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -117,7 +117,7 @@ header #logo {
 }
 
 header #written-icon {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -165,7 +165,7 @@ nav {
 }
 
 #path-page p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -198,7 +198,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay h2.name {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -206,7 +206,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay p.product-description {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -215,7 +215,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay .actual-price {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -223,7 +223,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay .discount-percentage {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -233,7 +233,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay .original-price {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -255,7 +255,7 @@ nav {
 }
 
 .card-product-to-shop #text-to-pay .add-to-cart p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -415,7 +415,7 @@ nav {
 }
 
 .listato-info-to-shop h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -429,7 +429,7 @@ nav {
 }
 
 .listato-info-to-shop li p {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

@@ -92,7 +92,7 @@ header {
 }
 
 header h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -116,7 +116,7 @@ header #logo {
 }
 
 header #written-icon {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -164,7 +164,7 @@ nav {
 }
 
 #title h1 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -191,7 +191,7 @@ nav {
 }
 
 #n-results h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -246,7 +246,7 @@ nav {
     margin: auto;
     margin-right: 0;
     padding: 0 2.68% 0 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -318,7 +318,7 @@ nav {
 }
 
 .listato .name {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -327,7 +327,7 @@ nav {
 }
 
 .listato .product-description {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -337,7 +337,7 @@ nav {
 }
 
 .listato .actual-price {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -348,7 +348,7 @@ nav {
 }
 
 .listato .actual-price span {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 12px;
@@ -357,7 +357,7 @@ nav {
 }
 
 .listato .original-price {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -393,7 +393,7 @@ nav {
     margin-left: 1rem;
   }
   .listato .actual-price {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -401,14 +401,14 @@ nav {
     margin-left: 0px;
   }
   .listato .actual-price span {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
     line-height: 200%;
   }
   .listato .original-price {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

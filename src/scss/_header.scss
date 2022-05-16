@@ -37,11 +37,7 @@ header {
         }
 
         #written-icon {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 21px;
+            @include font($lg-size,18px,21px);
         }
 }
 
