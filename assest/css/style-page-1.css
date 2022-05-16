@@ -315,6 +315,8 @@ nav {
   line-height: 24px;
   color: #000000;
   letter-spacing: 0.01em;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .sr-card-body .sr-card-text a {
@@ -339,10 +341,10 @@ nav {
   font-style: normal;
   font-size: 32px;
   line-height: 120%;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-.sr-card-body p {
+.sr-card-body p.over-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -350,7 +352,9 @@ nav {
   line-height: 14px;
   letter-spacing: 0.04em;
   padding-top: 7.339%;
-  padding-bottom: 1.834%;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .sr-card-body button {
@@ -358,7 +362,7 @@ nav {
   width: 169.29px;
   height: 48px;
   text-align: center;
-  margin-bottom: 7.339%;
+  margin-bottom: 2rem;
 }
 
 #second-section .sr-card-body {
@@ -373,7 +377,14 @@ nav {
     margin: auto;
     width: 50%;
     height: auto;
-    display: block;
+  }
+  .sr-card-body .sr-card-text h2 {
+    margin-bottom: 2rem;
+  }
+  .sr-card-body .sr-card-text .description {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 2rem;
   }
   .sr-card-body img {
     /* display:flex;      */
