@@ -9,10 +9,8 @@
     width: 100%;
     height: 32px;
     background-color: #000000;
-    /* text-align:center;  */
     justify-content: center;
     align-items: center;
-    padding-right: 2%;
     position: relative;
 
 
@@ -23,7 +21,8 @@
        font-weight: 700;
        font-size: 12px;
        line-height: 140%;
-       letter-spacing: 0.1em;
+       margin-right:2.875rem;
+      //  padding-left:1.5rem;
     
     }
 
@@ -48,4 +47,10 @@
 
 }
 
-
+@media (min-width:767px){
+   .discount-message{
+      span{
+         letter-spacing: 0.1em;
+      }
+   }
+}
