@@ -695,6 +695,12 @@ footer #form-area p {
   margin-top: 0;
 }
 
+footer #form-area p.email-return-message {
+  padding: 0;
+  padding-bottom: 5px;
+  color: #000000;
+}
+
 footer #form-and-send {
   text-align: left;
 }
@@ -885,6 +891,7 @@ footer #copyright-stuff #legal-elements {
   }
   footer #first-area #form-and-send {
     display: flex;
+    align-items: flex-end;
     gap: 16px;
     padding-bottom: 8.95%;
   }
