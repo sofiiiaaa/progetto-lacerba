@@ -157,10 +157,13 @@ nav {
 /*******************CARD HOME*****************/
 /********************CARD HOME***********************************/
 .sr-card-home {
-  border: 2px solid black;
   background-color: #FFFFFF;
   margin-bottom: 48px;
   overflow: hidden;
+}
+
+.sr-card-home img#img-md-screen {
+  display: none;
 }
 
 .sr-card-home .sr-card-text {
@@ -228,6 +231,12 @@ nav {
 }
 
 @media (min-width: 900px) {
+  .sr-card-home img#img-md-screen {
+    display: block;
+  }
+  .sr-card-home img#img-sm-screen {
+    display: none;
+  }
   .sr-card-home .sr-card-img {
     position: relative;
     height: 685px;
@@ -282,7 +291,6 @@ nav {
 /***************CARD BODY**************/
 /********************CARD BODY*****************************/
 .sr-card-body {
-  border: 2px solid black;
   background-color: #FFFFFF;
   margin-bottom: 48px;
   text-align: center;

@@ -1,9 +1,12 @@
 /********************CARD HOME***********************************/
 .sr-card-home {
-    border: 2px solid black;
     background-color: #FFFFFF;
     margin-bottom: 48px;
     overflow: hidden;
+
+    img#img-md-screen{
+       @include not-showed;
+    }
 
     .sr-card-text {
        text-align: center;
@@ -77,6 +80,14 @@
 @media (min-width:900px) {
 
     .sr-card-home{
+
+        img#img-md-screen{
+            display:block;
+        }
+
+        img#img-sm-screen{
+            @include not-showed;
+        }
 
         .sr-card-img {
                 position: relative;
