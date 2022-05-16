@@ -45,7 +45,7 @@ button svg {
 
 .discount-message span {
   color: #FFFFFF;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -56,7 +56,7 @@ button svg {
 .discount-message button {
   position: absolute;
   top: 50%;
-  transform: translateY(-45%);
+  transform: translateY(-50%);
   appearance: none;
   border: 0;
   background-color: transparent;
