@@ -727,7 +727,7 @@ footer #copyright-stuff #legal-elements {
     display: flex;
     justify-content: center;
   }
-  footer #follow-icons #follow-us-on h3 {
+  footer #follow-icons #follow-us-on h3.option-list {
     padding: 0;
     font-size: 16px;
     line-height: 19px;
@@ -779,7 +779,7 @@ footer #copyright-stuff #legal-elements {
   footer #first-area input {
     width: 500px;
   }
-  footer #first-area .option-list {
+  footer #first-area h3.option-list {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -795,7 +795,7 @@ footer #copyright-stuff #legal-elements {
     display: block;
     flex-direction: column;
     list-style: none;
-    padding-left: 0;
+    padding-left: 4.688rem;
   }
   footer #first-area li {
     display: block;
@@ -803,8 +803,6 @@ footer #copyright-stuff #legal-elements {
   }
   footer #first-area li a {
     display: block;
-    text-align: center;
-    margin: 0 auto;
     color: #000000;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -813,6 +811,7 @@ footer #copyright-stuff #legal-elements {
     line-height: 19px;
     letter-spacing: 0.01em;
     text-decoration: none;
+    text-align: left;
   }
   footer #first-area svg {
     margin-right: 6.25%;
@@ -825,6 +824,15 @@ footer #copyright-stuff #legal-elements {
   }
   footer #first-area button {
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 2000px) {
+  footer #first-area h3.option-list {
+    margin-left: 150px;
+  }
+  footer #first-area ul {
+    margin-left: 200px;
   }
 }
 

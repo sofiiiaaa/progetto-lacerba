@@ -268,7 +268,7 @@ footer {
                 justify-content: center;
                 // padding-bottom: 28px;
 
-            h3{
+            h3.option-list{
               padding:0;
               font-size: 16px;
               line-height: 19px;
@@ -340,21 +340,30 @@ footer {
             width: 500px;
           }
       
-          .option-list {
+          h3.option-list {
             display: block;
             @include font($lg-size,16px,19px);
             font-style: bold;
             letter-spacing: 0.01em;
             text-align: left;
             padding-bottom: 21px;
-          }
+          }         
       
           ul {
             display: block;
             flex-direction: column;
             list-style: none;
-            padding-left: 0;
+            padding-left: 4.688rem;
+            // padding-left: 0;
           }
+
+          // ul.may-we-help-you{
+          //   padding-left:75px;
+          // }
+
+          // ul.company{
+          //   padding-left: 75px;
+          // }
       
           li {
             display: block;
@@ -362,12 +371,12 @@ footer {
       
             a {
               display: block;
-              text-align: center;
-              margin: 0 auto;
               color: #000000;
               @include font($sm-size,16px,19px);
               letter-spacing: 0.01em;
               text-decoration: none;
+              text-align: left;
+              // margin-left:160px;
             }
           }
       
@@ -392,6 +401,19 @@ footer {
   }
 
   
+ }
+
+ @media (min-width:2000px){
+   footer{
+    #first-area{
+      h3.option-list{
+        margin-left:150px;
+      }
+      ul{
+        margin-left:200px;
+      }
+    }
+   }
  }
 
 

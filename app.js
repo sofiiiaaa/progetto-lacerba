@@ -184,10 +184,12 @@ document.addEventListener("DOMContentLoaded", function(){
 console.log("hii");
 
   var swiper = new Swiper(".mySwiper", {  
-    //  direction: 'horizontal',
+     direction: 'horizontal',
       // loop: true,
     slidesPerView: 1,
-    centeredSlides: false,
+    // centeredSlides: true,
+    // centeredSlidesBounds:true,
+    // centerInsufficientSlides:true,
     slidesPerGroupSkip: 1,
     grabCursor: true,
     keyboard: {
@@ -203,10 +205,10 @@ console.log("hii");
           scrollbar: {
             el: ".swiper-scrollbar",
           },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
+          // pagination: {
+          //   el: ".swiper-pagination",
+          //   clickable: true,
+          // },
         });
         console.log(swiper)
 
