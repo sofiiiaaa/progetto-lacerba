@@ -45,11 +45,14 @@
                     }
 
                     .actual-price{
-                        @include font($xl-size, 20px, 120%);
+                        @include font($xl-size, 20px, 120%);                 
+                    
                     }
 
                     .discount-percentage{
                         @include font($lg-size, 16px, 170%);
+                        margin-right: 0.5rem;
+                        margin-left: 0.5rem;
                     }
 
                     .original-price{
@@ -105,22 +108,29 @@
     button.favorite,
         a.turn-back{
             @include not-showed;
-        }
-    }
+        }  
 
+        #text-to-pay{
+            .add-to-cart {
+                    margin-right: 0px;
+                    /*i primi tre funzionano da console ma non da qui*/
+                    height: 4rem;                    
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-right: 0;
 
-//card-text//
-    .add-to{
-        display:grid;
-        grid-template-columns: 70% 30%;
-        .add-to-cart{
-            margin-right: 0px;  /*i primi tre funzionano da console ma non da qui*/
-            height: 4rem;  /*non funziona*/
-            align-items: center;
-            justify-content: space-between;
-            margin-right:0;
-            
-        }
+                    p{
+                        margin-left: 1rem;
+                    }
+
+                    button.add-to-shop-btn{
+                            margin-right:1.25rem;
+                            svg{
+                                margin-top:0;
+                            }
+                        }                                       
+                }
+
                 .favorite-to-shop {
                display: block; /*non funziona*/
                background-color:$main-color;
@@ -128,15 +138,29 @@
                height:4rem;
                text-align: center;
                margin:auto;
-               svg{
-                   margin-top:20px; /*da allineare meglio, in modo più intelligente*/
+               button.add-to-favorite{
+                background-color: $main-color;
+                border:none;
                }
+                svg {
+                        margin-top: 20px;   /*da allineare meglio, in modo più intelligente*/
+                    }
+
+
+        }
+
+
+//card-text//
+    .add-to{
+        display:grid;
+        grid-template-columns: 70% 30%;    
+       
+       
+                
+              
                }
 
 
-
-
-    }
-
-
+    }  
 }
+ }

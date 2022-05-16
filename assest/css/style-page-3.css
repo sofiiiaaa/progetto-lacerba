@@ -221,6 +221,8 @@ nav {
   font-weight: 700;
   font-size: 16px;
   line-height: 170%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .card-product-to-shop #text-to-pay .original-price {
@@ -281,20 +283,24 @@ nav {
   .card-product-to-shop a.turn-back {
     display: none;
   }
-  .add-to {
-    display: grid;
-    grid-template-columns: 70% 30%;
-  }
-  .add-to .add-to-cart {
+  .card-product-to-shop #text-to-pay .add-to-cart {
     margin-right: 0px;
     /*i primi tre funzionano da console ma non da qui*/
     height: 4rem;
-    /*non funziona*/
     align-items: center;
     justify-content: space-between;
     margin-right: 0;
   }
-  .add-to .favorite-to-shop {
+  .card-product-to-shop #text-to-pay .add-to-cart p {
+    margin-left: 1rem;
+  }
+  .card-product-to-shop #text-to-pay .add-to-cart button.add-to-shop-btn {
+    margin-right: 1.25rem;
+  }
+  .card-product-to-shop #text-to-pay .add-to-cart button.add-to-shop-btn svg {
+    margin-top: 0;
+  }
+  .card-product-to-shop #text-to-pay .favorite-to-shop {
     display: block;
     /*non funziona*/
     background-color: #000000;
@@ -303,9 +309,17 @@ nav {
     text-align: center;
     margin: auto;
   }
-  .add-to .favorite-to-shop svg {
+  .card-product-to-shop #text-to-pay .favorite-to-shop button.add-to-favorite {
+    background-color: #000000;
+    border: none;
+  }
+  .card-product-to-shop #text-to-pay .favorite-to-shop svg {
     margin-top: 20px;
     /*da allineare meglio, in modo più intelligente*/
+  }
+  .card-product-to-shop #text-to-pay .add-to {
+    display: grid;
+    grid-template-columns: 70% 30%;
   }
 }
 
