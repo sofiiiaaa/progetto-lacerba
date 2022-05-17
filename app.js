@@ -197,3 +197,41 @@ document.addEventListener("DOMContentLoaded", function(){
 //         });
 
 // }
+
+
+/**********************LAZY LOAD IMMAGINI****************************/
+
+ function lazyLoad() {
+  const regPicture = /^picture$/i;
+  /** First we get all the non-loaded image elements **/
+  const lazyImages = [...document.querySelectorAll("[data-src]")];
+  /** Then we set up a intersection observer watching over those images and whenever any of those becomes visible on the view then replace the placeholder image with actual one, remove the non-loaded class and then unobserve for that element **/
+  let lazyImageObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        let lazyImage = entry.target;
+        let parent = lazyImage.parentElement;
+        if (regPicture.test(parent.nodeName || '')) {
+          let sources = [...parent.querySelectorAll('source')];
+          sources.forEach((source) => {
+            source.setAttribute('srcset', source.dataset.srcset)
+            source.removeAttribute('data-srcset');
+          })
+        }
+        lazyImage.src = lazyImage.dataset.src;
+        lazyImage.removeAttribute('data-src');
+        lazyImage.classList.add("lazyloaded");
+        lazyImageObserver.unobserve(lazyImage);
+      }
+    });
+  });
+  /** Now observe all the non-loaded images using the observer we have setup above **/
+  lazyImages.forEach(function (lazyImage) {
+    lazyImage.src = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8zwoAAgkBBmO/hWQAAAAASUVORK5CYII=';
+    lazyImageObserver.observe(lazyImage);
+  });
+}
+lazyLoad()
+// document.addEventListener("DOMContentLoaded", () => {
+//   lazyLoad()
+// })
