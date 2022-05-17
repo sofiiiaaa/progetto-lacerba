@@ -302,6 +302,11 @@ nav {
   padding: 0;
 }
 
+.sr-card-body img {
+  width: 375px;
+  height: 375px;
+}
+
 .sr-card-body .sr-card-text {
   text-align: left;
   padding-left: 50px;
