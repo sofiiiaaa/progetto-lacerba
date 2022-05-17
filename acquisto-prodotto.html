@@ -73,7 +73,7 @@
     <!--navbar with path-->
 
         <div id="path-page">
-            <a href="index.html" class="turn-back" aria-label="come back to the list of products">
+            <a href="index.html" class="turn-back" aria-label="come back to the list of products" tabindex="0">
                 <?xml version="1.0" encoding="UTF-8"?>
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -134,16 +134,16 @@
         <img src="img/quarta-immagine-quadrata-compra.webp" alt="quarta immagine fragola">
         </div>
        <div id="text-to-pay" >  
-    <h2 class="name">Product name</h2>
-    <p class="product-description">Description</p>
+    <h2 class="name" tabindex="0">Product name</h2>
+    <p class="product-description" tabindex="0">Description</p>
     <div class="prices">
-        <span class="actual-price" >€120 <span class="cent">,00</span></span>
-        <span class="discount-percentage">-50%</span>
-        <span class="original-price">€240 <span>,00</span></span>
+        <span class="actual-price" tabindex="0" aria-label="the actual price is 120 euros.">€120 <span class="cent">,00</span></span>
+        <span class="discount-percentage" tabindex="0" aria-label="the actual discount is 50%.">-50%</span>
+        <span class="original-price" tabindex="0" aria-label="the original price was 240 euros.">€240 <span>,00</span></span>
     </div>
     <div class="add-to">
     <div class="add-to-cart">
-        <p>Add to cart</p>
+        <p tabindex="-1">Add to cart</p>
     <button type="button" class="add-to-shop-btn" aria-label=" add to cart" data-micromodal-trigger="modal-2">
             <?xml version="1.0" encoding="UTF-8"?>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
@@ -184,7 +184,7 @@
     </button>
     <div class="content">
         <ul>
-            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+            <li><p tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
             Semper at molestie vehicula in dui, sit cursus. Ultrices convallis volutpat dignissim velit sed.<br>
             Massa, congue purus suspendisse faucibus tincidunt. Sit commodo at in at aliquam placerat odio.</p></li>
         </ul>
@@ -205,7 +205,7 @@
     </button>
     <div class="content">
         <ul>
-            <li><p>something</p></li>
+            <li><p tabindex="0">something</p></li>
         </ul>
     </div>
 
@@ -224,13 +224,13 @@
     </button>
     <div class="content">
         <ul>
-            <li><p>something</p></li>
+            <li><p tabindex="0">something</p></li>
         </ul>
     </div>
 
 
     <button type="button" class="collapsible" id="Care Information" aria-label="go to the care information of the product">
-        <h3>Care Information</h3>
+        <h3     >Care Information</h3>
          <!-- <div class="plus"> -->
         <span>
         <?xml version="1.0" encoding="UTF-8"?>
@@ -243,7 +243,7 @@
     </button>
     <div class="content">
         <ul>
-            <li><p>something</p></li>
+            <li><p tabindex="0">something</p></li>
         </ul>
     </div>
 
@@ -325,7 +325,7 @@
         <!-- <div class="container-2"> -->
         <div class="row" id="first-area">
             <div class="col-md-6" id="form-area">
-                <h3>Keep you informed about news, trends, and special offers.</h3> <br>
+                <h3 tabindex="0">Keep you informed about news, trends, and special offers.</h3> <br>
                 <form id="form-and-send" class="newsletterContainer">
                     <input type="email" placeholder="Insert your email and get -5% discount"
                         aria-label="Insert your email and get -5% discount"> <br>                        
@@ -338,16 +338,16 @@
                                 fill="white"></path>
                         </svg>
                     </button>
-                    <p class="email-return-message"> thank you for your message! </p>
+                    <p class="email-return-message" tabindex="0"> thank you for your message! </p>
                     <!-- </div> -->
                 </form>
-                <p>I am over 16 years and subscribe to the Rosenthal newsletter concerning porcelain, table, kitchen
+                <p tabindex="0"> I am over 16 years and subscribe to the Rosenthal newsletter concerning porcelain, table, kitchen
                     and home accessories from Rosenthal GmbH. Cancellation is possible at any time with effect for
                     the future via the unsubscribe link in the newsletter or the unsubscribe function on this page.
                     Please find more information here: Data privacy.</p>
             </div>
             <div class="col-md-3 ">
-                <h3 class="option-list">
+                <h3 class="option-list" tabindex="0">
                     <span>
                         <?xml version="1.0" encoding="UTF-8"?>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -368,7 +368,7 @@
                 </ul>
             </div>
             <div class="col-md-3 ">
-                <h3 class="option-list">
+                <h3 class="option-list" tabindex="0"        >
                     <span>
                         <?xml version="1.0" encoding="UTF-8"?>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
@@ -457,7 +457,7 @@
     
         <div class="row" id="follow-icons">
             <div class="col-12 " id="follow-us-on">
-                <h3>FOLLOW US ON </h3>
+                <h3 tabindex="0">FOLLOW US ON </h3>
                 <ul class="col-md-5">
                     <li>
                         <a href="#" aria-label="go to our instagram">
@@ -570,7 +570,7 @@
             <div role="dialog" aria-modal="true" aria-labelledby="modal-2-title" class="modal-wrapper" >   
     
                 <header>
-                    <h2 class="modal-2-title">
+                    <h2 class="modal-2-title" tabindex="0">
                        Product Added!
                     </h2>
     
@@ -578,7 +578,7 @@
                     <button type="button" aria-label="Close modal" data-micromodal-close class="x-button"> X </button>
                 </header>
     
-                <div class="modal-2-content">
+                <div class="modal-2-content" tabindex="0">
                     Thank you!
                 </div>
     
@@ -595,7 +595,7 @@
             <div role="dialog" aria-modal="true" aria-labelledby="modal-2-title" class="modal-wrapper">
     
                 <header>
-                    <h2 class="modal-3-title">
+                    <h2 class="modal-3-title" tabindex="0">
                         Added to favorites
                     </h2>
     
@@ -603,7 +603,7 @@
                     <button type="button" aria-label="Close modal" data-micromodal-close class="x-button"> X </button>
                 </header>
     
-                <div class="modal-3-content">
+                <div class="modal-3-content" tabindex="0">
                     keep joining us!
                 </div>
     
