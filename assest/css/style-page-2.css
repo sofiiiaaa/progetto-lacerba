@@ -942,7 +942,7 @@ footer #copyright-stuff #legal-elements {
 }
 
 .modal-1-title {
-  margin: 0 20px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 .modal-1-content {
@@ -953,6 +953,9 @@ footer #copyright-stuff #legal-elements {
 
 .x-button {
   margin-right: 10px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 header {

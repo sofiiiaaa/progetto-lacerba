@@ -186,30 +186,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
   var swiper = new Swiper(".mySwiper", {  
      direction: 'horizontal',
-      // loop: true,
     slidesPerView: 1,
-    // centeredSlides: true,
-    // centeredSlidesBounds:true,
-    // centerInsufficientSlides:true,
     slidesPerGroupSkip: 1,
     grabCursor: true,
     keyboard: {
       enabled: true,
           },
-          // breakpoints: {
-          //   768: {
-          // //     slidesPerView: 2,
-          // //     slidesPerGroup: 2,
-          // // autoplayDisableOnInteraction: false,
-          //   },
-          // },
           scrollbar: {
             el: ".swiper-scrollbar",
           },
-          // pagination: {
-          //   el: ".swiper-pagination",
-          //   clickable: true,
-          // },
         });
-        // console.log(swiper)
+
 

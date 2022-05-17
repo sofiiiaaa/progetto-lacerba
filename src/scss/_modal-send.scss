@@ -25,7 +25,7 @@
       text-align: center;
   }
   .modal-1-title{
-      margin: 0 20px 0 10px;
+      margin: 0 10px 0 10px;
   }
 
   .modal-1-content {
@@ -37,6 +37,10 @@
 
   .x-button{
       margin-right:10px;
+      margin-left:10px;
+      color:#FFFFFF;
+      background-color: $main-color;
+      
   }
 
   header {
@@ -46,11 +50,9 @@
 
    .newsletterContainer p{            
             display:none;                
-        } 
+    } 
   .newsletterContainer.subscribed p {
       display: block;
-
-
   }
 
  

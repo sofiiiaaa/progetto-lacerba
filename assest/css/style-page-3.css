@@ -914,7 +914,7 @@ footer #copyright-stuff #legal-elements {
 }
 
 .modal-1-title {
-  margin: 0 20px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 .modal-1-content {
@@ -925,6 +925,9 @@ footer #copyright-stuff #legal-elements {
 
 .x-button {
   margin-right: 10px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 header {
@@ -937,50 +940,4 @@ header {
 
 .newsletterContainer.subscribed p {
   display: block;
-}
-
-/*******************MODAL ADD TO CART******************/
-.modal {
-  display: none;
-}
-
-.modal.is-open {
-  display: block;
-}
-
-.modal-backdrop {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-wrapper {
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.modal-2-title {
-  margin: 0 20px 0 10px;
-}
-
-.modal-2-content {
-  background-color: white;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.x-button {
-  margin-right: 10px;
-}
-
-header {
-  display: flex;
 }

@@ -154,7 +154,7 @@
     </button>
     </div>
     <div class="favorite-to-shop">
-        <button type="button" class="add-to-favorite" aria-label="add to favorite">
+        <button type="button" class="add-to-favorite" aria-label="add to favorite" data-micromodal-trigger="modal-3">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -531,6 +531,7 @@
 
 <!--modals!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
+<!--modal for send button-->
     <!-- [1] -->
     <div id="modal-1" class="modal" aria-hidden="true">
     
@@ -561,7 +562,7 @@
 
 
 
-    <!-- modal add to cart -->
+    <!-- modal add to cart button -->
     <div id="modal-2" class="modal" aria-hidden="true">
 
         <div tabindex="-1" data-micromodal-close class="modal-backdrop">
@@ -579,6 +580,31 @@
     
                 <div class="modal-2-content">
                     Thank you!
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <!--modal add to favorite button-->
+
+    <div id="modal-3" class="modal" aria-hidden="true">
+    
+        <div tabindex="-1" data-micromodal-close class="modal-backdrop">
+    
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-2-title" class="modal-wrapper">
+    
+                <header>
+                    <h2 class="modal-3-title">
+                        Added to favorites
+                    </h2>
+    
+                    <!-- [4] -->
+                    <button type="button" aria-label="Close modal" data-micromodal-close class="x-button"> X </button>
+                </header>
+    
+                <div class="modal-3-content">
+                    keep joining us!
                 </div>
     
             </div>
