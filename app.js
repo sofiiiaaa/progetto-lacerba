@@ -32,7 +32,7 @@ if (imgAndDescriptionBtn !== null){
   justImgButton.addEventListener("click", justImg);
 }
 
-console.log(imgAndDescriptionBtn);
+// console.log(imgAndDescriptionBtn);
 function imgAndDescription (event){
 
   // console.log("hii");
@@ -89,14 +89,14 @@ btnToAddToWishlist.forEach(element =>{
 btnToRemoveFromWishlist.forEach(element =>{
   element.addEventListener("click", funtionRemoveFromWishlist);
 });
-console.log("hiii")
+// console.log("hiii")
 
 function functionAddToWishlist (event){
-  console.log(event);
+  // console.log(event);
   const productIdToAdd = event.target.dataset.id;
-  console.log(productIdToAdd);
+  // console.log(productIdToAdd);
   wishlist.push(productIdToAdd);
-  console.log(wishlist);
+  // console.log(wishlist);
 
   localStorage.setItem("wishlist", JSON.stringify(wishlist));  //inserisce come chiave wishlist e come valore tutti gli elementi di wishlist nella modalità di stringa; l'unica che il localStorage legge.
 
@@ -142,9 +142,9 @@ StartWishlistOperations();
 // class="svg-go-to-complete-list-products"
 
 const btnCompleteViewListato = document.querySelector(".img-and-description-btn");
-console.log(btnCompleteViewListato);
+// console.log(btnCompleteViewListato);
 const btnJustImagViewListato = document.querySelector(".just-img-btn");
-console.log(btnJustImagViewListato);
+// console.log(btnJustImagViewListato);
 
 if (btnCompleteViewListato !== null){
 
@@ -165,23 +165,24 @@ function moreOpacitySecondIcon(){
   
 }
 
-/****************PER MODALE**************************/
+/**************** MODAL OF SEND**************************/
 
 document.addEventListener("DOMContentLoaded", function(){
   MicroModal.init({
     onClose:() => {
       const newsletterContainerClosed = document.querySelector(".newsletterContainer");
-      console.log(newsletterContainerClosed);
+      // console.log(newsletterContainerClosed);
       newsletterContainerClosed.classList.add("subscribed");
-      console.log(newsletterContainerClosed);
+      // console.log(newsletterContainerClosed);
 
     }
   });
 });
 
+
 /**************CAROUSEL PRODUCT  TO SHOP****************/
 
-console.log("hii");
+// console.log("hii");
 
   var swiper = new Swiper(".mySwiper", {  
      direction: 'horizontal',
@@ -210,5 +211,5 @@ console.log("hii");
           //   clickable: true,
           // },
         });
-        console.log(swiper)
+        // console.log(swiper)
 
