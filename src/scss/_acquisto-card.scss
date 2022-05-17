@@ -1,5 +1,5 @@
 .card-product-to-shop{
-    background-color: #E5E5E5;
+    // background-color: #E5E5E5;
     // position: relative;
         .image-to-pay {
             @include not-showed;
@@ -73,7 +73,7 @@
         @include showed;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        background-color: #E5E5E5;
+        // background-color: #E5E5E5;
 
         img {
              width: 100%;

@@ -21,7 +21,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #E5E5E5;
 }
 
 button svg {
@@ -184,10 +183,6 @@ nav {
   margin-right: 1.1875%;
 }
 
-.card-product-to-shop {
-  background-color: #E5E5E5;
-}
-
 .card-product-to-shop .image-to-pay {
   display: none;
 }
@@ -281,7 +276,6 @@ nav {
     display: block;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #E5E5E5;
   }
   .card-product-to-shop .image-to-pay img {
     width: 100%;
@@ -450,13 +444,12 @@ nav {
   display: flex;
   align-items: center;
   gap: 80px;
-  margin: 0 2.5%;
-  background-color: #E5E5E5;
+  padding: 0 2.5%;
+  background-color: #F5F5F5;
   height: 160px;
-  /*#F5F5F5*/
   overflow-x: scroll;
   overflow-y: hidden;
-  padding-left: 0;
+  margin: 0;
 }
 
 #menu-service li {
