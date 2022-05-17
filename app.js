@@ -107,9 +107,10 @@ function functionAddToWishlist (event){
 function funtionRemoveFromWishlist (event){
 
   const productIdToRemove =  event.target.dataset.id;
-  console.log(productIdToRemove)
-   const idtToDeleteFromWishlist = wishlist.findIndex(element => productIdToRemove);
-   wishlist.splice(idtToDeleteFromWishlist,1);
+  const idtToDeleteFromWishlist = wishlist.findIndex(element => element===productIdToRemove);
+  console.log(idtToDeleteFromWishlist)
+  wishlist.splice(idtToDeleteFromWishlist,1);
+  // console.log(wishlist)
    localStorage.setItem("wishlist", JSON.stringify(wishlist));
    updateWishlist();
 
