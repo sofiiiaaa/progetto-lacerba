@@ -203,6 +203,7 @@ nav {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05rem;
+  text-decoration: none;
 }
 
 .sr-card-home .sr-card-text #big-screen-paragraph {
@@ -347,12 +348,17 @@ nav {
   margin-bottom: 0;
 }
 
-.sr-card-body button {
+.sr-card-body .discover {
   background-color: #000000;
   width: 169.29px;
   height: 48px;
   text-align: center;
-  margin-bottom: 2rem;
+  padding-top: 13px;
+  margin: 0 0 2rem 0;
+}
+
+.sr-card-body .discover a {
+  text-decoration: none;
 }
 
 #second-section .sr-card-body {

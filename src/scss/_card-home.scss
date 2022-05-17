@@ -31,6 +31,7 @@
             color: #000000;
            @include font($lg-size,14px,16px);
             letter-spacing: 0.05rem;
+            text-decoration: none;
 
         }
 

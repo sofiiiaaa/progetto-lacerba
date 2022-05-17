@@ -48,12 +48,17 @@
             }
 
             
-            button {
+            .discover {
                 background-color: #000000;
                 width: 169.29px;
                 height: 48px;
                 text-align: center;
-                margin-bottom:2rem;
+                padding-top:13px;
+                margin:0 0 2rem 0;
+
+                a{
+                   text-decoration: none; 
+                }
 
             }
 
