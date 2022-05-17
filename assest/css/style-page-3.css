@@ -47,6 +47,7 @@ button svg {
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 12px;
   line-height: 140%;
@@ -94,6 +95,7 @@ header {
 header h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 19px;
   line-height: 22px;
@@ -118,6 +120,7 @@ header #logo {
 header #written-icon {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -166,6 +169,7 @@ nav {
 #path-page p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 12px;
   line-height: 200%;
@@ -195,6 +199,7 @@ nav {
 .card-product-to-shop #text-to-pay h2.name {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 120%;
@@ -203,6 +208,7 @@ nav {
 .card-product-to-shop #text-to-pay p.product-description {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
@@ -212,6 +218,7 @@ nav {
 .card-product-to-shop #text-to-pay .actual-price {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 800;
   font-size: 20px;
   line-height: 120%;
@@ -220,6 +227,7 @@ nav {
 .card-product-to-shop #text-to-pay .discount-percentage {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 170%;
@@ -230,6 +238,7 @@ nav {
 .card-product-to-shop #text-to-pay .original-price {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 16px;
   line-height: 170%;
@@ -252,6 +261,7 @@ nav {
 .card-product-to-shop #text-to-pay .add-to-cart p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -407,6 +417,7 @@ nav {
 .listato-info-to-shop h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -421,6 +432,7 @@ nav {
 .listato-info-to-shop li p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -464,6 +476,7 @@ nav {
   color: #000;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -474,6 +487,7 @@ nav {
 #menu-service p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -509,6 +523,7 @@ footer #first-area {
 footer #first-area h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -524,6 +539,7 @@ footer #first-area h3 {
 footer #first-area input::placeholder {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -536,6 +552,7 @@ footer #first-area input::placeholder {
 footer #first-area p {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -576,6 +593,7 @@ footer .col-sm-3 button .collapsible #company {
   outline: none;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
@@ -642,6 +660,7 @@ footer form button {
   height: 48px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -664,6 +683,7 @@ footer #form-area p {
   margin-bottom: 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 10px;
   line-height: 12px;
@@ -698,6 +718,7 @@ footer #follow-us-on {
 footer #follow-us-on h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 800;
   font-size: 14px;
   line-height: 16px;
@@ -745,6 +766,7 @@ footer #copyright-stuff ul a {
 footer #copyright-stuff #copyright {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 400;
   font-size: 10px;
   line-height: 140%;
@@ -758,6 +780,7 @@ footer #copyright-stuff #legal-elements {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-display: swap;
   font-weight: 600;
   font-size: 10px;
   line-height: 140%;
@@ -832,6 +855,7 @@ footer #copyright-stuff #legal-elements {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-display: swap;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -855,6 +879,7 @@ footer #copyright-stuff #legal-elements {
     color: #000000;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-display: swap;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
