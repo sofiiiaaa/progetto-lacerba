@@ -107,8 +107,8 @@ function functionAddToWishlist (event){
 function funtionRemoveFromWishlist (event){
 
   const productIdToRemove =  event.target.dataset.id;
-  // console.log(productIdToRemove)
-   const idtToDeleteFromWishlist = wishlist.findIndex(element => element.productIdToRemove);
+  console.log(productIdToRemove)
+   const idtToDeleteFromWishlist = wishlist.findIndex(element => productIdToRemove);
    wishlist.splice(idtToDeleteFromWishlist,1);
    localStorage.setItem("wishlist", JSON.stringify(wishlist));
    updateWishlist();
@@ -183,18 +183,18 @@ document.addEventListener("DOMContentLoaded", function(){
 /**************CAROUSEL PRODUCT  TO SHOP****************/
 
 // console.log("hii");
+// if (swiper !== null){
+//   var swiper = new Swiper(".mySwiper", {  
+//      direction: 'horizontal',
+//     slidesPerView: 1,
+//     slidesPerGroupSkip: 1,
+//     grabCursor: true,
+//     keyboard: {
+//       enabled: true,
+//           },
+//           scrollbar: {
+//             el: ".swiper-scrollbar",
+//           },
+//         });
 
-  var swiper = new Swiper(".mySwiper", {  
-     direction: 'horizontal',
-    slidesPerView: 1,
-    slidesPerGroupSkip: 1,
-    grabCursor: true,
-    keyboard: {
-      enabled: true,
-          },
-          scrollbar: {
-            el: ".swiper-scrollbar",
-          },
-        });
-
-
+// }
