@@ -2,21 +2,22 @@
 
 .sr-card-body {
     // background-color: #E5E5E5;
-    margin-bottom: 48px;
+    // padding-bottom: 48px;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 48px;
     padding: 0;
-
     img{
         width:375px;
         height:375px;
     }
 
+
     .sr-card-text {
         text-align: left;
         padding-left: 50px;
         padding-right: 50px;  
-        // background-color: #FFFFFF; 
+        background-color: #FFFFFF; 
         
         .description {
                 @include font($sm-size,16px,24px);
@@ -86,6 +87,7 @@
 
             p.over-title{
                 // margin-bottom:0.625rem;
+            // margin-top: 0;
             }
             h2{
                 margin-bottom:2rem;

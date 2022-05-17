@@ -1,7 +1,7 @@
 /********************CARD HOME***********************************/
 .sr-card-home {
-    background-color: #FFFFFF;
-    margin-bottom: 48px;
+    background-color: #E5E5E5;
+    padding-bottom: 48px;
     overflow: hidden;
 
     img#img-md-screen{
@@ -10,8 +10,9 @@
 
     .sr-card-text {
        text-align: center;
-       margin-top: 26px;
-       margin-bottom: 40px;
+       padding-top: 26px;
+       padding-bottom: 40px;
+       background-color: #FFFFFF;
 
         #tag {
                 @include font($md-size,12px,14px);

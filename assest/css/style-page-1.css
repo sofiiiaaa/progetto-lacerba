@@ -162,8 +162,8 @@ nav {
 /*******************CARD HOME*****************/
 /********************CARD HOME***********************************/
 .sr-card-home {
-  background-color: #FFFFFF;
-  margin-bottom: 48px;
+  background-color: #E5E5E5;
+  padding-bottom: 48px;
   overflow: hidden;
 }
 
@@ -173,8 +173,9 @@ nav {
 
 .sr-card-home .sr-card-text {
   text-align: center;
-  margin-top: 26px;
-  margin-bottom: 40px;
+  padding-top: 26px;
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
 }
 
 .sr-card-home .sr-card-text #tag {
@@ -296,9 +297,9 @@ nav {
 /***************CARD BODY**************/
 /********************CARD BODY*****************************/
 .sr-card-body {
-  margin-bottom: 48px;
   text-align: center;
   overflow: hidden;
+  margin-bottom: 48px;
   padding: 0;
 }
 
@@ -311,6 +312,7 @@ nav {
   text-align: left;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: #FFFFFF;
 }
 
 .sr-card-body .sr-card-text .description {
