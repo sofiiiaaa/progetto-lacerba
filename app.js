@@ -165,9 +165,8 @@ function moreOpacitySecondIcon(){
 }
 
 /**************** MODAL OF SEND**************************/
-
-document.addEventListener("DOMContentLoaded", function(){
-  MicroModal.init({
+(function () {
+   MicroModal.init({
     onClose:() => {
       const newsletterContainerClosed = document.querySelector(".newsletterContainer");
       // console.log(newsletterContainerClosed);
@@ -176,7 +175,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
     }
   });
-});
+})()
+// document.addEventListener("load", function(){
+ 
+// });
 
 
 /**************CAROUSEL PRODUCT  TO SHOP****************/
